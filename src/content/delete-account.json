@@ -46,7 +46,7 @@
       "audience": "Lost phone or no access",
       "body": "If you no longer have the app or your phone, send us a request and we will delete the account for you after checking it is yours.",
       "steps": [
-        "Fill in the form below or email privacy@valam.app from the email address linked to your account. If you signed in with a phone number, Apple or Google, say which one.",
+        "Fill in the form below or email privacy@valam.io from the email address linked to your account. If you signed in with a phone number, Apple or Google, say which one.",
         "We will reply to verify that the request comes from you.",
         "Within 30 days we will delete your account and the data listed below, and confirm by email."
       ]
@@ -88,5 +88,5 @@
     },
     "subject": "Account deletion request"
   },
-  "contactNote": "Questions about your data? Email privacy@valam.app and we will reply within 7 days."
+  "contactNote": "Questions about your data? Email privacy@valam.io and we will reply within 7 days."
 }

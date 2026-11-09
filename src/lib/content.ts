@@ -5,10 +5,11 @@ import blog from "@/content/blog.json";
 import privacy from "@/content/privacy.json";
 import terms from "@/content/terms.json";
 import deleteAccount from "@/content/delete-account.json";
+import dataSafety from "@/content/data-safety.json";
 
 import pages from "@/content/pages.json";
 
-export { site, home, faq, blog, privacy, terms, deleteAccount, pages };
+export { site, home, faq, blog, privacy, terms, deleteAccount, dataSafety, pages };
 
 export type Post = (typeof blog.posts)[number];
 export type Block = Post["blocks"][number];

@@ -10,6 +10,7 @@ import PrivacyPage from "@/pages/PrivacyPage";
 import Pricing from "@/pages/Pricing";
 import BlogIndex from "@/pages/BlogIndex";
 import BlogPost from "@/pages/BlogPost";
+import DataSafety from "@/pages/DataSafety";
 import DeleteAccount from "@/pages/DeleteAccount";
 import Home from "@/pages/Home";
 import NotFound from "@/pages/NotFound";
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="blog/:slug" element={<BlogPost />} />
         <Route path="privacy-policy" element={<Privacy />} />
         <Route path="terms-and-conditions" element={<Terms />} />
+        <Route path="data-safety" element={<DataSafety />} />
         <Route path="delete-account" element={<DeleteAccount />} />
         <Route path="*" element={<NotFound />} />
       </Route>

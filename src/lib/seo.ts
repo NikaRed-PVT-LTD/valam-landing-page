@@ -1,4 +1,4 @@
-import { absUrl, blog, deleteAccount, faq, home, pages, privacy, site, terms } from "./content";
+import { absUrl, blog, dataSafety, deleteAccount, faq, home, pages, privacy, site, terms } from "./content";
 
 export type RouteMeta = {
   path: string;
@@ -117,6 +117,7 @@ export function getRoutes(): RouteMeta[] {
 
   routes.push({ path: "/privacy-policy", title: privacy.seo.title, description: privacy.seo.description, priority: 0.4, jsonLd: [breadcrumb([{ name: "Home", path: "/" }, { name: "Privacy Policy", path: "/privacy-policy" }])] });
   routes.push({ path: "/terms-and-conditions", title: terms.seo.title, description: terms.seo.description, priority: 0.4, jsonLd: [breadcrumb([{ name: "Home", path: "/" }, { name: "Terms and Conditions", path: "/terms-and-conditions" }])] });
+  routes.push({ path: "/data-safety", title: dataSafety.seo.title, description: dataSafety.seo.description, priority: 0.5, jsonLd: [breadcrumb([{ name: "Home", path: "/" }, { name: "Data safety", path: "/data-safety" }])] });
   routes.push({ path: "/delete-account", title: deleteAccount.seo.title, description: deleteAccount.seo.description, priority: 0.4, jsonLd: [breadcrumb([{ name: "Home", path: "/" }, { name: "Delete account", path: "/delete-account" }])] });
 
   return routes;

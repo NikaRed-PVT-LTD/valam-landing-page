@@ -128,6 +128,10 @@
             "href": "/terms-and-conditions"
           },
           {
+            "label": "Data safety",
+            "href": "/data-safety"
+          },
+          {
             "label": "Delete your account",
             "href": "/delete-account"
           }

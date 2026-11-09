@@ -1,14 +1,29 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PhoneFrame, Reveal, Section } from "@/components/ui";
 import { home } from "@/lib/content";
 
 const mmss = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
 
-/** Silent looping tour that plays on its own. No player UI is shown. */
+/** Silent looping tour that plays only while on screen. No player UI is shown. */
 export function VideoSection({ bare }: { bare?: boolean }) {
   const v = home.video;
   const ref = useRef<HTMLVideoElement>(null);
   const [time, setTime] = useState(0);
+
+  // Play only while the video is on screen (and the tab is visible); pause otherwise.
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    let inView = false;
+    const sync = () => {
+      if (inView && !document.hidden) void el.play().catch(() => {});
+      else el.pause();
+    };
+    const io = new IntersectionObserver(([e]) => { inView = e.isIntersecting; sync(); }, { threshold: 0.35 });
+    io.observe(el);
+    document.addEventListener("visibilitychange", sync);
+    return () => { io.disconnect(); document.removeEventListener("visibilitychange", sync); };
+  }, []);
 
   let active = 0;
   v.chapters.forEach((c, i) => { if (time >= c.time) active = i; });
@@ -29,11 +44,10 @@ export function VideoSection({ bare }: { bare?: boolean }) {
               ref={ref}
               src={v.src}
               poster={v.poster}
-              autoPlay
               muted
               loop
               playsInline
-              preload="auto"
+              preload="metadata"
               disablePictureInPicture
               disableRemotePlayback
               controlsList="nodownload noplaybackrate nofullscreen noremoteplayback"

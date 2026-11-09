@@ -1,0 +1,92 @@
+{
+  "seo": {
+    "title": "Delete Your Valam Account and Data | Valam",
+    "description": "Delete your Valam account and cloud data in the app in under a minute, remove data on your phone, or request deletion by email. See exactly what is erased and what is kept."
+  },
+  "title": "Delete your account",
+  "intro": "You can delete your Valam account yourself, inside the app, in under a minute. This page explains how, what is erased, what is kept, and what to do if you cannot open the app.",
+  "options": [
+    {
+      "id": "in-app",
+      "title": "Delete your account in the app",
+      "audience": "Recommended. For anyone who signed in",
+      "body": "A Valam account exists only if you signed in for Plus, sync, shared groups or the free month. Deleting it erases everything the server holds for you, straight away.",
+      "steps": [
+        "Open Valam and go to Settings.",
+        "Under Account, tap Delete account. If you are on the Valam Plus screen, you will find the same button at the bottom.",
+        "Read the summary, then tap Delete account to confirm.",
+        "If you signed in a while ago, Valam asks you to sign in again to prove it is you, then finishes the deletion.",
+        "You will see a message that your account was deleted. Syncing stops and you are signed out."
+      ]
+    },
+    {
+      "id": "cancel",
+      "title": "Cancel your subscription",
+      "audience": "If you subscribed to Valam Plus",
+      "body": "Deleting your account does not cancel a subscription, because purchases are managed by Apple or Google. Cancel it so you are not billed again.",
+      "steps": [
+        "On iPhone, open Settings, tap your name, then Subscriptions, choose Valam and tap Cancel Subscription.",
+        "On Android, open Google Play, tap your profile picture, then Payments and subscriptions, Subscriptions, choose Valam and tap Cancel subscription."
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Delete the data on your phone",
+      "audience": "Everyone",
+      "body": "Your ledger, attachments and chat history with Mathi live only on your phone. Deleting your account leaves them in place, so you can keep using Valam without an account. To erase them as well:",
+      "steps": [
+        "Export a backup first if you may want your data later (Settings, then Backup).",
+        "On iPhone, press and hold the Valam icon, choose Remove App, then Delete App. On Android, press and hold the icon and choose Uninstall.",
+        "Delete any backup files (.fbak) you saved to Files, iCloud Drive or Google Drive, and any sync folder Valam created in your own iCloud or Google Drive."
+      ]
+    },
+    {
+      "id": "email",
+      "title": "Cannot open the app? Ask us to delete it",
+      "audience": "Lost phone or no access",
+      "body": "If you no longer have the app or your phone, send us a request and we will delete the account for you after checking it is yours.",
+      "steps": [
+        "Fill in the form below or email privacy@valam.app from the email address linked to your account. If you signed in with a phone number, Apple or Google, say which one.",
+        "We will reply to verify that the request comes from you.",
+        "Within 30 days we will delete your account and the data listed below, and confirm by email."
+      ]
+    }
+  ],
+  "deleted": {
+    "title": "What is erased",
+    "items": [
+      "Your sign in account (email, phone number, Apple or Google sign in)",
+      "Your encrypted sync copy and the key check that goes with it",
+      "Your list of shared groups, your invitation inbox and your group identity backup and name",
+      "Your Mathi credit balance and its history",
+      "Your Plus entitlement record on our server",
+      "Any entry that lets friends find you by email or phone"
+    ]
+  },
+  "kept": {
+    "title": "What stays",
+    "items": [
+      "Your data on your phone, until you delete it yourself",
+      "Shared group history. You leave every group, but the encrypted entries you added stay with the other members, because their balances depend on them",
+      "Purchase records held by Apple, Google and our subscription provider, which they must keep by law",
+      "Limited security and abuse logs, for up to 90 days"
+    ]
+  },
+  "warning": "Deleting an account is permanent and cannot be undone. Valam cannot restore it. Your data on your phone is not touched, so export a backup if you want a copy.",
+  "form": {
+    "title": "Request deletion by email",
+    "emailLabel": "Account email or phone",
+    "emailPlaceholder": "you@example.com",
+    "reasonLabel": "Reason (optional)",
+    "reasonPlaceholder": "Tell us why you are leaving, if you like",
+    "confirmLabel": "I understand that this is permanent",
+    "button": "Prepare deletion request",
+    "help": "This opens your email app with a pre filled message to our privacy team. We reply to verify your identity before deleting anything.",
+    "errors": {
+      "email": "Please enter the email address or phone number linked to your account.",
+      "confirm": "Please confirm that you understand."
+    },
+    "subject": "Account deletion request"
+  },
+  "contactNote": "Questions about your data? Email privacy@valam.app and we will reply within 7 days."
+}

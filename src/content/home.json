@@ -1,0 +1,451 @@
+{
+  "seo": {
+    "title": "Valam | Private Personal Finance App with an AI Money Coach",
+    "description": "Valam tracks spending, loans, credit cards, goals and money with friends, and coaches you with Mathi, an AI that runs on your phone. No ads, no data selling. Free to start."
+  },
+  "hero": {
+    "eyebrow": "Private by design",
+    "title": "Your money, understood. Your data, yours alone.",
+    "highlight": "yours alone",
+    "subtitle": "Valam brings your accounts, cards, loans, goals and shared expenses into one calm place. Mathi, your AI coach, answers on your phone, so your finances never have to leave it.",
+    "primaryCta": {
+      "label": "Get the app",
+      "href": "/#download"
+    },
+    "secondaryCta": {
+      "label": "Watch how it works",
+      "href": "/how-it-works#video"
+    },
+    "trust": [
+      "No ads",
+      "No data selling",
+      "Works offline",
+      "Free to start"
+    ],
+    "heroImage": {
+      "src": "/images/screens/home.jpg",
+      "alt": "Valam home screen showing net worth, safe to spend and upcoming bills"
+    },
+    "floating": [
+      {
+        "label": "Safe to spend",
+        "value": "Calculated daily",
+        "icon": "shield",
+        "position": "left"
+      },
+      {
+        "label": "Mathi",
+        "value": "Answers on device",
+        "icon": "spark",
+        "position": "right"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": 31,
+      "suffix": "",
+      "label": "problem detectors watching your money"
+    },
+    {
+      "value": 187,
+      "suffix": "",
+      "label": "plain language money guides built in"
+    },
+    {
+      "value": 0,
+      "suffix": "",
+      "label": "ads or trackers inside the app"
+    },
+    {
+      "value": 256,
+      "suffix": "-bit",
+      "label": "encryption protecting your vault"
+    }
+  ],
+  "problem": {
+    "eyebrow": "Why Valam",
+    "title": "Money apps ask for everything. Valam asks for nothing.",
+    "body": "Most finance apps upload your bank messages and spending to someone else's server. Valam does the opposite. It keeps your ledger in an encrypted vault on your phone and runs its intelligence there too.",
+    "points": [
+      {
+        "title": "Others",
+        "items": [
+          "Upload your transactions",
+          "Show ads based on your spending",
+          "Stop working without internet",
+          "Lock insights behind accounts"
+        ],
+        "tone": "bad"
+      },
+      {
+        "title": "Valam",
+        "items": [
+          "Keeps your ledger on your phone",
+          "Has no ads and no trackers",
+          "Works fully offline",
+          "Needs no sign up to start"
+        ],
+        "tone": "good"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Everything about your money, in one place",
+    "subtitle": "From a quick coffee to a home loan, Valam keeps the whole picture clear and tells you what needs attention.",
+    "items": [
+      {
+        "icon": "wallet",
+        "title": "Accounts and spending",
+        "body": "Add every account, log expenses in seconds and let Valam sort them into categories. It learns from your corrections."
+      },
+      {
+        "icon": "card",
+        "title": "Credit cards",
+        "body": "Track limits, statement dates and interest with reminders before every due date, so you never pay a late fee."
+      },
+      {
+        "icon": "loan",
+        "title": "Loans and EMIs",
+        "body": "See what you owe, how much interest you will pay and how fast you could be free with a payoff plan."
+      },
+      {
+        "icon": "people",
+        "title": "Friends and family",
+        "body": "Keep a clear record of who owes whom. Split bills in groups and settle up with confirmed payments."
+      },
+      {
+        "icon": "target",
+        "title": "Goals and savings",
+        "body": "Set a goal, link a savings pot and add money as you go. Valam shows if you are on track."
+      },
+      {
+        "icon": "chart",
+        "title": "Wealth and funds",
+        "body": "Follow investments, chit funds, deposits and reimbursements next to your everyday spending."
+      },
+      {
+        "icon": "calendar",
+        "title": "One calendar",
+        "body": "Every bill, EMI, card due date and subscription renewal in a single view."
+      },
+      {
+        "icon": "import",
+        "title": "Easy import",
+        "body": "Bring in history from bank CSV or OFX files, and on Android from bank SMS, all processed on your phone."
+      }
+    ]
+  },
+  "showcase": {
+    "eyebrow": "Mathi makes it easy",
+    "title": "Skip the spreadsheets. Just ask Mathi.",
+    "subtitle": "Real questions, answered with your own numbers. Here is what Mathi takes off your plate.",
+    "screens": [
+      {
+        "id": "safe",
+        "label": "Ask",
+        "title": "Get a straight answer",
+        "body": "Ask what you can spend today and Mathi replies in plain words, using your real balance, bills and budgets.",
+        "src": "/images/screens/m-safe.jpg",
+        "alt": "Mathi telling the user how much is safe to spend today"
+      },
+      {
+        "id": "add",
+        "label": "Log",
+        "title": "Add an expense by chatting",
+        "body": "Say what you spent. Mathi drafts the entry and nothing is saved until you press Confirm and save.",
+        "src": "/images/screens/m-add.jpg",
+        "alt": "Mathi drafting a 450 rupee dinner expense with a confirm button"
+      },
+      {
+        "id": "bills",
+        "label": "Remind",
+        "title": "Never miss a due date",
+        "body": "Ask which bills are due and get every EMI, card bill and chit payment in one list, with dates and amounts.",
+        "src": "/images/screens/m-bills.jpg",
+        "alt": "Mathi listing upcoming EMIs and card bills"
+      },
+      {
+        "id": "loans",
+        "label": "Plan",
+        "title": "See your way out of debt",
+        "body": "Mathi compares payoff strategies, shows your debt free date and what an extra payment would save.",
+        "src": "/images/screens/m-loans.jpg",
+        "alt": "Mathi explaining a loan payoff plan with the avalanche method"
+      }
+    ]
+  },
+  "video": {
+    "id": "video",
+    "eyebrow": "How to use Valam",
+    "title": "Watch Valam in about a minute",
+    "subtitle": "A quick tour of net worth, the activity calendar, Mathi, planning and your wealth.",
+    "src": "/video/valam-tour.mp4",
+    "poster": "/images/screens/home.jpg",
+    "captions": "Screen recording of the Valam app. It shows the home screen, the activity list, a chat with Mathi, the plan screen and the wealth screen.",
+    "duration": "PT1M",
+    "uploadDate": "2026-11-09",
+    "chapters": [
+      {
+        "time": 2,
+        "label": "Home and net worth"
+      },
+      {
+        "time": 10,
+        "label": "Activity calendar"
+      },
+      {
+        "time": 19,
+        "label": "Ask Mathi"
+      },
+      {
+        "time": 36,
+        "label": "Plan and goals"
+      },
+      {
+        "time": 45,
+        "label": "Wealth"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "How it works",
+    "title": "Up and running in four steps",
+    "items": [
+      {
+        "title": "Install and secure",
+        "body": "Open Valam and set up your vault. It is protected by Face ID, fingerprint or your phone PIN, plus a recovery key shown once."
+      },
+      {
+        "title": "Add your accounts",
+        "body": "Add accounts, cards and loans, or import a statement file. Nothing is uploaded."
+      },
+      {
+        "title": "Track or import",
+        "body": "Log spending in seconds or let Valam read your import. Categories sort themselves and improve as you correct them."
+      },
+      {
+        "title": "Get guided",
+        "body": "See your safe to spend figure, spot problems early and ask Mathi what to do next."
+      }
+    ]
+  },
+  "mathi": {
+    "id": "mathi",
+    "eyebrow": "Meet Mathi",
+    "title": "A money coach that stays on your phone",
+    "body": "Mathi (மதி) means good sense. Ask about affording a purchase, paying off a loan, or building a savings habit. Mathi reads your real numbers, shows what it checked, and keeps to money topics only.",
+    "image": {
+      "src": "/images/screens/coach.jpg",
+      "alt": "Chat with Mathi, the Valam AI money coach"
+    },
+    "points": [
+      {
+        "title": "Runs on your device",
+        "body": "The on-device model answers without sending your questions to a server."
+      },
+      {
+        "title": "Numbers checked",
+        "body": "Figures in a reply are checked against your ledger before you see them."
+      },
+      {
+        "title": "Only money topics",
+        "body": "Anything unrelated to money is declined before it reaches the model."
+      },
+      {
+        "title": "Drafts, never decisions",
+        "body": "Mathi can prepare an expense or payment for you, and nothing is saved until you confirm."
+      }
+    ],
+    "sampleChat": [
+      {
+        "from": "user",
+        "text": "Can I afford a 45,000 rupee laptop this month?"
+      },
+      {
+        "from": "mathi",
+        "text": "A laptop for ₹45,000 is tight. It is more than your remaining spending room of ₹4,946, so it would come out of savings. Waiting a month, or saving towards it, keeps your plan intact."
+      }
+    ]
+  },
+  "privacy": {
+    "id": "privacy",
+    "eyebrow": "Privacy and security",
+    "title": "Built so we could not read your data even if we wanted to",
+    "subtitle": "Security is not a feature we added. It is how Valam is built.",
+    "items": [
+      {
+        "icon": "lock",
+        "title": "Hardware protected vault",
+        "body": "Your master key is sealed by the Secure Enclave on iPhone or the Keystore on Android and released only after Face ID, fingerprint or PIN."
+      },
+      {
+        "icon": "database",
+        "title": "Encrypted database",
+        "body": "Your ledger, attachments and chat history are encrypted on the device. The vault closes and keys are wiped whenever the app locks."
+      },
+      {
+        "icon": "key",
+        "title": "Recovery key",
+        "body": "A recovery key shown once at setup is the only other way in. Lose both and nobody, including us, can open your data."
+      },
+      {
+        "icon": "backup",
+        "title": "Encrypted backups",
+        "body": "Export a backup file that is encrypted with a key derived from your passphrase. Restore it on a new phone."
+      },
+      {
+        "icon": "eye",
+        "title": "Privacy mode",
+        "body": "Hide amounts with one tap when someone is looking over your shoulder."
+      },
+      {
+        "icon": "shield",
+        "title": "No ads, no tracking",
+        "body": "No advertising, no analytics SDKs and no selling of data."
+      }
+    ]
+  },
+  "plus": {
+    "id": "plus",
+    "eyebrow": "Valam Plus",
+    "title": "Start free. Add Plus when you want more.",
+    "subtitle": "The core app is free and fully private. Plus is optional and coming soon.",
+    "tiers": [
+      {
+        "name": "Free",
+        "tag": "Always",
+        "highlight": false,
+        "description": "Everything you need to track and understand your money, with no sign up.",
+        "features": [
+          "Accounts, cards, loans and goals",
+          "Smart categories and import",
+          "Reminders and calendar",
+          "Built in coach with one free Mathi question",
+          "Local, encrypted data"
+        ]
+      },
+      {
+        "name": "Plus",
+        "tag": "Coming soon",
+        "highlight": true,
+        "description": "For people who want to go further with Mathi, sync and shared groups.",
+        "features": [
+          "Unlimited Mathi conversations",
+          "Optional extra reasoning with daily credits",
+          "Sync across your devices, end to end encrypted",
+          "Shared groups and splits with friends",
+          "SMS and bank email sync"
+        ]
+      }
+    ],
+    "note": "Plus features and pricing are subject to change before launch."
+  },
+  "audiences": {
+    "eyebrow": "Who it is for",
+    "title": "Made for everyday money",
+    "items": [
+      {
+        "icon": "student",
+        "title": "First salary",
+        "body": "Learn budgeting without handing your data to anyone."
+      },
+      {
+        "icon": "family",
+        "title": "Households",
+        "body": "Track shared costs, chit funds and loans between family."
+      },
+      {
+        "icon": "freelance",
+        "title": "Irregular income",
+        "body": "See safe to spend even when income arrives unevenly."
+      },
+      {
+        "icon": "debt",
+        "title": "Paying off debt",
+        "body": "Compare payoff plans and see your debt free date."
+      }
+    ]
+  },
+  "download": {
+    "id": "download",
+    "title": "Take control of your money, privately",
+    "body": "Valam is on its way to the App Store and Google Play. Leave your email and we will tell you the day it lands.",
+    "formLabel": "Email address",
+    "placeholder": "you@example.com",
+    "button": "Notify me",
+    "success": "Thank you. We will email you at launch.",
+    "error": "Please enter a valid email address.",
+    "consent": "We only use your email to tell you about the launch. See our Privacy Policy.",
+    "storesLabel": "Coming soon to",
+    "endpoint": ""
+  },
+  "faqIntro": {
+    "id": "faq",
+    "eyebrow": "FAQ",
+    "title": "Questions, answered",
+    "subtitle": "Cannot find what you need? Write to us and we will reply."
+  },
+  "blogIntro": {
+    "eyebrow": "From the blog",
+    "title": "Money guides in plain language",
+    "subtitle": "Short, practical articles on budgeting, loans, cards and privacy."
+  },
+  "pages": {
+    "features": {
+      "seo": {
+        "title": "Features | Track Spending, Cards, Loans and Goals | Valam",
+        "description": "Explore Valam's features: accounts and spending, credit cards, loans and EMIs, friends and family, goals, wealth, one calendar and easy import, all private on your phone."
+      },
+      "title": "Everything about your money, in one place",
+      "intro": "From a quick coffee to a home loan, Valam keeps the whole picture clear and tells you what needs attention.",
+      "crumb": "Features"
+    },
+    "how": {
+      "seo": {
+        "title": "How Valam Works | Set Up in Four Steps | Valam",
+        "description": "See how to use Valam: secure your vault, add accounts, track or import spending and get guided by Mathi. Watch the one minute video tour."
+      },
+      "title": "How Valam works",
+      "intro": "Set up in minutes, then watch a short tour of the app in action.",
+      "crumb": "How it works"
+    },
+    "mathi": {
+      "seo": {
+        "title": "Meet Mathi | The AI Money Coach That Runs on Your Phone | Valam",
+        "description": "Mathi is Valam's AI money coach. Ask about affording a purchase, bills or loans and get answers checked against your own numbers, on your device."
+      },
+      "title": "Meet Mathi, your money coach",
+      "intro": "Plain answers to real money questions, using your own numbers, without your data leaving your phone.",
+      "crumb": "Mathi"
+    },
+    "privacy": {
+      "seo": {
+        "title": "Privacy and Security | Your Data Stays on Your Phone | Valam",
+        "description": "How Valam protects your money data: a hardware protected vault, encrypted database and backups, a recovery key, no ads and no tracking."
+      },
+      "title": "Built so we could not read your data",
+      "intro": "Security is not a feature we added. It is how Valam is built.",
+      "crumb": "Privacy and security"
+    },
+    "pricing": {
+      "seo": {
+        "title": "Valam Plus | Free to Start, Optional Plus | Valam",
+        "description": "Valam is free to start with no sign up. Valam Plus, coming soon, adds unlimited Mathi, encrypted sync and shared groups."
+      },
+      "title": "Start free. Add Plus when you want more.",
+      "intro": "The core app is free and fully private. Plus is optional and coming soon.",
+      "crumb": "Plus"
+    },
+    "faq": {
+      "seo": {
+        "title": "FAQ | Questions About Valam, Privacy and Mathi | Valam",
+        "description": "Answers about Valam: privacy, offline use, Mathi the AI coach, importing transactions, splitting expenses, pricing and deleting your account."
+      },
+      "title": "Questions, answered",
+      "intro": "Cannot find what you need? Write to us and we will reply.",
+      "crumb": "FAQ"
+    }
+  }
+}

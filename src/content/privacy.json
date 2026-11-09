@@ -1,0 +1,160 @@
+{
+  "seo": {
+    "title": "Privacy Policy | Valam",
+    "description": "How Valam handles your data. Your financial data stays encrypted on your phone. Learn what is collected, what is not, and your choices."
+  },
+  "title": "Privacy Policy",
+  "intro": "Valam is built so your financial data stays on your phone. This policy explains what we collect, what we do not, and the choices you have. It applies to the Valam mobile app and this website.",
+  "summary": [
+    "Your ledger is stored encrypted on your device. We do not receive it.",
+    "The free app needs no account and has no ads, analytics or trackers.",
+    "Optional features such as sync, groups and cloud reasoning send limited, protected data, only if you turn them on.",
+    "You can export and delete your data at any time."
+  ],
+  "sections": [
+    {
+      "id": "who-we-are",
+      "heading": "1. Who we are",
+      "body": [
+        "Valam (வளம்) is a personal finance app with an AI coach called Mathi. In this policy, we, us and our mean the team that operates Valam. You can contact us at the address in section 14."
+      ]
+    },
+    {
+      "id": "data-on-your-device",
+      "heading": "2. Data that stays on your device",
+      "body": [
+        "The following is created and stored only on your phone, in an encrypted vault, and is not sent to us:"
+      ],
+      "list": [
+        "Accounts, balances, transactions, categories and budgets",
+        "Credit cards, loans, goals, funds and the people ledger",
+        "Attachments, notes and chat history with Mathi",
+        "Imported statements, bank SMS content and email text you paste in",
+        "Your settings and the machine learning adjustments made from your corrections"
+      ]
+    },
+    {
+      "id": "what-we-collect",
+      "heading": "3. Data we may receive",
+      "body": [
+        "We receive data only when you use an optional feature or contact us."
+      ],
+      "list": [
+        "Account details: if you sign up for Plus, we process your sign in identity, such as your email address, phone number or Apple or Google sign in identifier, through our authentication provider.",
+        "Subscription status: purchases are handled by Apple or Google. Our subscription provider tells us whether you have an active entitlement, along with an app user identifier. We do not see your card details.",
+        "Sync data: if you enable Valam hosted sync, your records are encrypted on your phone before upload. We store sealed records that we cannot read.",
+        "Shared group data: groups between Valam users use end to end encryption. The server holds encrypted events and the minimum identifiers needed to deliver them.",
+        "Cloud reasoning requests: if you tap Think harder on Plus, a sanitised version of your question and a summary of relevant numbers is sent to a cloud language model. Transaction text and your own merchant and people names are removed or redacted first. We keep only what is needed to count credits and issue refunds.",
+        "Support messages: if you email us, we keep your message and address to reply.",
+        "Launch list: if you give your email on this website, we use it to tell you about the launch."
+      ]
+    },
+    {
+      "id": "what-we-do-not-collect",
+      "heading": "4. What we do not do",
+      "body": [],
+      "list": [
+        "We do not show advertising in the app.",
+        "We do not use third party analytics or tracking SDKs in the app.",
+        "We do not sell or rent your personal data.",
+        "We do not read your bank account or mailbox. Bank email is parsed only from text you paste in."
+      ]
+    },
+    {
+      "id": "permissions",
+      "heading": "5. Device permissions",
+      "body": [
+        "Valam asks for permissions only when a feature needs them, and the app works without optional ones."
+      ],
+      "list": [
+        "Face ID, fingerprint or device PIN: to unlock your vault.",
+        "Notifications: for bill, EMI and card reminders.",
+        "SMS (Android only, optional): to read bank messages from your inbox at unlock. Nothing is stored while the app is locked.",
+        "Microphone and speech (optional): for voice mode with Mathi, processed on the device where supported.",
+        "Files: to import statements and export backups."
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "heading": "6. How we use data",
+      "body": [],
+      "list": [
+        "To provide and secure the features you choose",
+        "To verify your subscription and apply credits",
+        "To prevent abuse and keep the service reliable",
+        "To respond to support requests and legal obligations"
+      ]
+    },
+    {
+      "id": "ai",
+      "heading": "7. AI and Mathi",
+      "body": [
+        "Mathi runs on your device by default. A topic guard checks each message and only money related questions are answered. Figures in answers are checked against your ledger.",
+        "If you use optional cloud reasoning, a third party language model provider processes the sanitised request on our behalf. We ask that provider not to use the content to train its models. Avoid typing sensitive identifiers such as passwords, full card numbers or national ID numbers into any chat."
+      ]
+    },
+    {
+      "id": "service-providers",
+      "heading": "8. Service providers",
+      "body": [
+        "We use a small number of providers to run optional features. They process data only to provide their service."
+      ],
+      "list": [
+        "Google Firebase: authentication, hosting of encrypted sync and group records, and cloud functions",
+        "RevenueCat, Apple and Google: subscriptions and purchases",
+        "A cloud language model provider: optional Think harder requests",
+        "Apple iCloud or Google Drive: optional personal cloud sync in your own storage account"
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. Security",
+      "body": [
+        "A random 256 bit master key is sealed by the Secure Enclave on iPhone or the Keystore on Android. The database, attachments and chat history are encrypted with keys derived from it, and keys are wiped when the app locks. Backups are encrypted with a key derived from your passphrase.",
+        "Because we do not hold your keys, we cannot recover your data if you lose both your device access and your recovery key. No system is perfectly secure, but we design to limit harm if any part is exposed."
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "10. Retention",
+      "body": [
+        "Data on your device stays until you delete it or remove the app. If you delete your account in the app, the data our servers hold for it is erased immediately. If you ask us by email instead, we delete it within 30 days of verifying your request. We may keep limited records the law requires, such as security logs for up to 90 days. Purchase records are held by Apple, Google and our subscription provider under their own policies."
+      ]
+    },
+    {
+      "id": "your-rights",
+      "heading": "11. Your rights and choices",
+      "body": [
+        "Subject to applicable law, including the Digital Personal Data Protection Act, 2023 in India, you may:"
+      ],
+      "list": [
+        "Access and export your data using the backup feature",
+        "Correct your data inside the app",
+        "Withdraw consent for optional features such as sync or cloud reasoning at any time",
+        "Delete your account yourself in the app (Settings, then Delete account) or by following the Delete Account page",
+        "Complain to us, and if unresolved, to the relevant data protection authority"
+      ]
+    },
+    {
+      "id": "children",
+      "heading": "12. Children",
+      "body": [
+        "Valam is not directed to children under 18, and we do not knowingly collect personal data from them. If you believe a child has given us data, contact us and we will delete it."
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "13. Changes to this policy",
+      "body": [
+        "We may update this policy as Valam grows. We will change the date at the top and, for material changes, tell you in the app or by email before they take effect."
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "14. Contact",
+      "body": [
+        "For privacy questions or requests, write to privacy@valam.app. We aim to reply within 7 days."
+      ]
+    }
+  ]
+}

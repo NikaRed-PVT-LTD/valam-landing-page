@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "q": "What is Valam?",
+      "a": "Valam is a personal finance app for Android and iPhone. It tracks your accounts, spending, credit cards, loans, goals and money with friends, and includes an AI coach named Mathi. The name comes from the Tamil word வளம், which means prosperity."
+    },
+    {
+      "q": "Is my financial data private?",
+      "a": "Yes. Your ledger is stored in an encrypted vault on your phone. The core app has no ads, no analytics and no tracking. Data leaves your phone only if you choose optional features such as sync, shared groups or cloud reasoning, and those are explained in our Privacy Policy."
+    },
+    {
+      "q": "Do I need an account to use Valam?",
+      "a": "No. You can use the free app without signing up. An account is needed only for optional Plus features such as sync and shared groups."
+    },
+    {
+      "q": "Does Valam work without internet?",
+      "a": "Yes. Tracking, budgets, reminders, imports and the built in coach all work offline. The on-device Mathi model also runs without a connection once it has been downloaded."
+    },
+    {
+      "q": "Who or what is Mathi?",
+      "a": "Mathi is the AI money coach inside Valam. The name means good sense in Tamil. Mathi reads your real numbers, checks the figures it quotes and only answers questions about money."
+    },
+    {
+      "q": "Does Mathi send my questions to a server?",
+      "a": "By default, no. Mathi runs on your phone. If you choose the optional Think harder feature on Plus, a sanitised version of your question is sent to a cloud model. Transaction text and your own merchant and people names are removed first."
+    },
+    {
+      "q": "Can Mathi move money or pay my bills?",
+      "a": "No. Mathi can prepare a draft of an expense, loan payment or IOU, and nothing is saved until you press Confirm. Valam never moves real money."
+    },
+    {
+      "q": "What if I lose my phone or forget my PIN?",
+      "a": "Use the recovery key shown once during setup, and restore from an encrypted backup. Because only you hold the keys, we cannot recover your data for you. Keep your recovery key somewhere safe."
+    },
+    {
+      "q": "How do I add my past transactions?",
+      "a": "Import CSV or OFX files from your bank. On Android you can also read bank SMS from the phone inbox. All parsing happens on your device and duplicates are detected for you."
+    },
+    {
+      "q": "Can I split expenses with friends?",
+      "a": "Yes. Keep a ledger with friends and family, and on Plus create shared groups. Balances are replayed from a log of events, and a settlement counts only after the receiver confirms it."
+    },
+    {
+      "q": "Which currencies and banks are supported?",
+      "a": "Valam is built with Indian banks and the rupee in mind, and it handles other currencies too. Accounts in a foreign currency show a rate needed prompt until you set an exchange rate. CSV presets exist for ten banks."
+    },
+    {
+      "q": "Is Valam free?",
+      "a": "The core app is free. Valam Plus is an optional subscription that is coming soon and adds unlimited Mathi, sync and shared groups. Pricing will be shown in the app before you buy."
+    },
+    {
+      "q": "Is Valam financial advice?",
+      "a": "No. Valam and Mathi give general information and calculations based on the data you enter. They are not a substitute for a licensed financial adviser, tax professional or lawyer."
+    },
+    {
+      "q": "How do I delete my data or account?",
+      "a": "Open Valam, go to Settings, and tap Delete account. This erases your account and the encrypted data we hold, straight away. Your data on your phone stays until you delete the app. If you cannot open the app, request deletion by email on our Delete Account page."
+    },
+    {
+      "q": "When will Valam be available?",
+      "a": "Valam is heading to the App Store and Google Play. Join the launch list on this page and we will email you once."
+    }
+  ]
+}

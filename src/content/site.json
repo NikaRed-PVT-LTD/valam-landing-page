@@ -1,0 +1,139 @@
+{
+  "name": "Valam",
+  "legalName": "Valam",
+  "tagline": "Private money, calmly managed",
+  "url": "https://valam.app",
+  "locale": "en_IN",
+  "supportEmail": "support@valam.app",
+  "privacyEmail": "privacy@valam.app",
+  "lastUpdated": "9 November 2026",
+  "lastUpdatedIso": "2026-11-09",
+  "logo": "/images/logo.png",
+  "ogImage": "/images/og-image.png",
+  "themeColor": "#0A4A32",
+  "keywords": [
+    "personal finance app India",
+    "private expense tracker",
+    "offline budget app",
+    "AI money coach",
+    "loan EMI tracker",
+    "credit card due date reminder",
+    "split expenses with friends",
+    "on-device AI finance"
+  ],
+  "nav": [
+    {
+      "label": "Features",
+      "href": "/features"
+    },
+    {
+      "label": "How it works",
+      "href": "/how-it-works"
+    },
+    {
+      "label": "Mathi",
+      "href": "/mathi"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Plus",
+      "href": "/pricing"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    }
+  ],
+  "cta": {
+    "label": "Get the app",
+    "href": "/#download"
+  },
+  "stores": {
+    "ios": {
+      "label": "App Store",
+      "href": "",
+      "available": false
+    },
+    "android": {
+      "label": "Google Play",
+      "href": "",
+      "available": false
+    }
+  },
+  "footer": {
+    "blurb": "Valam is a private personal finance app with an AI coach named Mathi. Your data stays on your phone.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          {
+            "label": "Features",
+            "href": "/features"
+          },
+          {
+            "label": "How it works",
+            "href": "/how-it-works"
+          },
+          {
+            "label": "Meet Mathi",
+            "href": "/mathi"
+          },
+          {
+            "label": "Plus",
+            "href": "/pricing"
+          }
+        ]
+      },
+      {
+        "title": "Learn",
+        "links": [
+          {
+            "label": "Privacy and security",
+            "href": "/privacy"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq"
+          },
+          {
+            "label": "Watch the demo",
+            "href": "/how-it-works#video"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms and Conditions",
+            "href": "/terms-and-conditions"
+          },
+          {
+            "label": "Delete your account",
+            "href": "/delete-account"
+          }
+        ]
+      }
+    ],
+    "copyright": "Valam. All rights reserved."
+  }
+}

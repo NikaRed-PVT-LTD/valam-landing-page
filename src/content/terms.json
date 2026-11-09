@@ -1,0 +1,139 @@
+{
+  "seo": {
+    "title": "Terms and Conditions | Valam",
+    "description": "The terms that apply when you use the Valam app, the Mathi coach and the Valam website."
+  },
+  "title": "Terms and Conditions",
+  "intro": "These terms are an agreement between you and Valam. By downloading or using the Valam app or this website, you agree to them. If you do not agree, please do not use Valam.",
+  "summary": [
+    "Valam gives information and tools, not financial, tax or legal advice.",
+    "You are responsible for the accuracy of the data you enter and for keeping your recovery key safe.",
+    "Paid features renew until cancelled and are billed by the app store."
+  ],
+  "sections": [
+    {
+      "id": "using-valam",
+      "heading": "1. Using Valam",
+      "body": [
+        "You must be at least 18 years old and able to enter a binding contract. You agree to use Valam only for lawful purposes and in line with these terms. We grant you a personal, limited, non exclusive and non transferable licence to use the app on devices you own or control."
+      ]
+    },
+    {
+      "id": "not-advice",
+      "heading": "2. Not financial advice",
+      "body": [
+        "Valam and Mathi provide general information, estimates and calculations based on what you enter. Nothing in the app is investment, credit, insurance, tax or legal advice, and it is not a recommendation to buy or sell any product. Please consult a qualified professional before making major financial decisions.",
+        "Estimates such as safe to spend, forecasts, goal projections and scores depend on your data and on assumptions. They may be wrong. Mathi may make mistakes, so check important figures yourself."
+      ]
+    },
+    {
+      "id": "no-money-movement",
+      "heading": "3. No money movement",
+      "body": [
+        "Valam is a record keeping and planning tool. It does not hold, transfer or invest your money, and it does not connect to your bank to make payments. Drafts prepared by Mathi are saved only when you confirm them."
+      ]
+    },
+    {
+      "id": "your-data-and-keys",
+      "heading": "4. Your data and your keys",
+      "body": [
+        "You own your data. Your vault is protected by keys that only you control. If you lose access to your device and your recovery key, we cannot recover your data. You are responsible for keeping a recovery key and backups in a safe place.",
+        "You are responsible for the accuracy of what you enter or import and for the security of your device."
+      ]
+    },
+    {
+      "id": "accounts",
+      "heading": "5. Accounts",
+      "body": [
+        "An account is needed only for optional features such as sync and shared groups. Keep your sign in details secure. You are responsible for activity under your account. You can delete your account at any time in the app (Settings, then Delete account) or from the Delete Account page. Deleting an account does not cancel a subscription, which you manage in your App Store or Google Play account."
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "heading": "6. Subscriptions and credits",
+      "body": [
+        "Some features are offered through a paid subscription called Valam Plus, and optional credit packs. Prices and features are shown in the app before purchase and may change for future periods.",
+        "Purchases are processed by Apple or Google. Subscriptions renew automatically until you cancel in your store account settings, at least 24 hours before the end of the period. Refunds are handled under the policies of the relevant store and applicable law.",
+        "Purchased credits do not expire but can be used only while Plus is active. Credits for requests that fail on our side are refunded automatically."
+      ]
+    },
+    {
+      "id": "shared-groups",
+      "heading": "7. Shared groups and other people",
+      "body": [
+        "When you invite others or join a group, members can see the entries shared in that group. Settlements are counted only after the receiver confirms them. Valam is not a party to any money arrangement between users and is not responsible for disputes between them."
+      ]
+    },
+    {
+      "id": "acceptable-use",
+      "heading": "8. Acceptable use",
+      "body": [
+        "You agree not to:"
+      ],
+      "list": [
+        "Reverse engineer, copy or resell the app except as law allows",
+        "Attempt to bypass security, rate limits or the Mathi topic guard",
+        "Use Valam to commit fraud, launder money or harm others",
+        "Upload malicious content or interfere with our servers",
+        "Use automated means to access cloud features other than through the app"
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "heading": "9. Intellectual property",
+      "body": [
+        "Valam, Mathi, the logo and the app content are owned by us or our licensors and protected by law. Open source components are used under their own licences. Your data remains yours."
+      ]
+    },
+    {
+      "id": "third-parties",
+      "heading": "10. Third party services",
+      "body": [
+        "Valam relies on services from Apple, Google and others. Their availability and terms are outside our control, and we are not responsible for them."
+      ]
+    },
+    {
+      "id": "availability",
+      "heading": "11. Availability and changes",
+      "body": [
+        "We work to keep Valam reliable but do not promise that it will be uninterrupted or error free. We may change, suspend or discontinue features, and will give notice of material changes where we reasonably can."
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "heading": "12. Disclaimers and liability",
+      "body": [
+        "Valam is provided as is and as available, to the extent permitted by law. We do not give warranties about accuracy, fitness for a purpose or uninterrupted operation.",
+        "To the extent permitted by law, we are not liable for indirect, incidental or consequential losses, loss of data, or financial decisions you make using the app. Our total liability for any claim is limited to the amount you paid us in the 12 months before the claim, or 1,000 rupees if you paid nothing. Nothing in these terms excludes liability that cannot be excluded by law."
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "13. Termination",
+      "body": [
+        "You can stop using Valam at any time. We may suspend or end access if you breach these terms or misuse the service. Sections that by their nature should continue, such as disclaimers and liability, will survive."
+      ]
+    },
+    {
+      "id": "governing-law",
+      "heading": "14. Governing law",
+      "body": [
+        "These terms are governed by the laws of India. Courts at Chennai, Tamil Nadu will have jurisdiction, subject to any rights you have as a consumer under law."
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "15. Changes to these terms",
+      "body": [
+        "We may update these terms. If changes are material, we will tell you in the app or by email. Continued use after the effective date means you accept the new terms."
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "16. Contact",
+      "body": [
+        "Questions about these terms can be sent to support@valam.app."
+      ]
+    }
+  ]
+}

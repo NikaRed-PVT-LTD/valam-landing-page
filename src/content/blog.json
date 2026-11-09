@@ -1,0 +1,145 @@
+{
+  "author": { "name": "The Valam Team", "role": "Product and money guides" },
+  "posts": [
+    {
+      "slug": "how-to-build-a-monthly-budget-that-works",
+      "title": "How to build a monthly budget that actually works",
+      "description": "A simple five step method to build a monthly budget you can stick to, with a worked example in rupees.",
+      "category": "Budgeting",
+      "date": "2026-11-02",
+      "readMinutes": 5,
+      "image": "/images/blog/budget.svg",
+      "imageAlt": "Illustration of a monthly budget split into needs, wants and savings",
+      "tags": ["budget", "saving", "monthly planning"],
+      "blocks": [
+        { "type": "p", "text": "Most budgets fail for one reason: they are too strict to live with. A good budget is not a punishment. It is a plan that tells your money where to go before the month begins." },
+        { "type": "h2", "text": "Step 1: Start with what actually comes in" },
+        { "type": "p", "text": "Write down your take home income, the amount that reaches your bank account. If your income changes each month, use the lowest of the last three months. This keeps the plan safe in a weak month." },
+        { "type": "h2", "text": "Step 2: List the bills you cannot skip" },
+        { "type": "p", "text": "Rent, EMIs, insurance, school fees, utilities and minimum card payments come first. Add them up. These are your fixed costs, and they are due whether or not you feel like paying." },
+        { "type": "h2", "text": "Step 3: Pay yourself before you spend" },
+        { "type": "p", "text": "Decide a savings amount and move it on salary day. A common starting point is 20 percent of income, but even 5 percent builds the habit. What matters is that it happens first, not with whatever is left." },
+        { "type": "h2", "text": "Step 4: Give the rest a job" },
+        { "type": "p", "text": "What remains is for food, travel, fun and everything else. Split it into a few categories you can remember. Fewer categories are easier to keep." },
+        { "type": "ul", "items": ["Needs such as groceries and transport", "Wants such as eating out and shopping", "A small buffer for surprises"] },
+        { "type": "h2", "text": "A worked example" },
+        { "type": "p", "text": "Say you take home 50,000 rupees. Fixed bills are 24,000. You save 10,000 first. That leaves 16,000 for everything else, which is about 530 rupees a day. Now every purchase has a clear answer: is it inside the 530, or not?" },
+        { "type": "h2", "text": "Step 5: Review weekly, adjust monthly" },
+        { "type": "p", "text": "Look at your spending once a week for five minutes. If a category keeps overflowing, the budget was unrealistic. Change the number, not your self respect." },
+        { "type": "callout", "title": "How Valam helps", "text": "Valam calculates a safe to spend figure each day from your income, bills and goals, so you do not have to do the sums yourself." }
+      ]
+    },
+    {
+      "slug": "credit-card-due-dates-and-interest-explained",
+      "title": "Credit card due dates and interest, explained simply",
+      "description": "Understand billing cycles, statement dates, minimum due and how interest is charged, so you can avoid late fees and costly interest.",
+      "category": "Credit cards",
+      "date": "2026-10-28",
+      "readMinutes": 6,
+      "image": "/images/blog/cards.svg",
+      "imageAlt": "Illustration of a credit card with a calendar showing the due date",
+      "tags": ["credit card", "interest", "due date"],
+      "blocks": [
+        { "type": "p", "text": "A credit card is a short term loan that is free only if you repay it in full and on time. Knowing four dates and two numbers is enough to use one safely." },
+        { "type": "h2", "text": "The key terms" },
+        { "type": "ul", "items": ["Billing cycle: the period, usually about a month, in which purchases are added to one statement.", "Statement date: the day your bill is generated.", "Due date: the last day to pay without a late fee, often around 15 to 20 days after the statement.", "Total due: everything you owe on the statement.", "Minimum due: the smallest payment that avoids a late fee."] },
+        { "type": "h2", "text": "Why paying only the minimum is costly" },
+        { "type": "p", "text": "If you pay less than the total due, interest usually applies to the unpaid balance and often to new purchases too, until you clear everything. Card interest is commonly quoted per month and is much higher than most loans. Check your card agreement for the exact rate." },
+        { "type": "h2", "text": "A habit that avoids trouble" },
+        { "type": "ul", "items": ["Pay the total due, not the minimum, whenever you can.", "Set a reminder three days before the due date.", "Keep your spending below about a third of your limit.", "Never withdraw cash on a card, because interest starts immediately."] },
+        { "type": "callout", "title": "How Valam helps", "text": "Add your card in Valam to track its limit, statement day and due date. Valam reminds you before payment is due and shows how much interest an unpaid balance would cost." }
+      ]
+    },
+    {
+      "slug": "emi-vs-prepayment-how-to-pay-off-a-loan-faster",
+      "title": "EMI or prepayment: how to pay off a loan faster",
+      "description": "Learn how loan interest works and when a small extra payment saves the most money.",
+      "category": "Loans",
+      "date": "2026-10-20",
+      "readMinutes": 6,
+      "image": "/images/blog/loans.svg",
+      "imageAlt": "Illustration of a loan balance shrinking over time",
+      "tags": ["loan", "EMI", "prepayment"],
+      "blocks": [
+        { "type": "p", "text": "Early in a loan, most of each EMI goes toward interest. That is why extra payments made early have an outsized effect. Understanding this can save you a meaningful sum." },
+        { "type": "h2", "text": "How an EMI is split" },
+        { "type": "p", "text": "Each month, interest is charged on the outstanding balance. The rest of your EMI reduces the principal. As the balance falls, interest falls too, and more of the EMI goes to principal." },
+        { "type": "h2", "text": "Two ways to use extra money" },
+        { "type": "ul", "items": ["Reduce the tenure: keep the same EMI and finish earlier. This usually saves the most interest.", "Reduce the EMI: keep the same end date and lower the monthly burden. This helps cash flow but saves less interest."] },
+        { "type": "h2", "text": "Which loan to attack first" },
+        { "type": "p", "text": "If you have several loans, the avalanche method targets the highest interest rate first and saves the most money. The snowball method clears the smallest balance first and can feel more motivating. Pick the one you will stick with." },
+        { "type": "h2", "text": "Check before you prepay" },
+        { "type": "p", "text": "Ask your lender about prepayment charges and keep an emergency fund before sending large lump sums. Paying off cheap debt while holding expensive debt is rarely the best use of cash." },
+        { "type": "callout", "title": "How Valam helps", "text": "The payoff planner in Valam compares strategies and shows your debt free date, so you can see what an extra payment is worth." }
+      ]
+    },
+    {
+      "slug": "why-your-finance-app-should-work-offline",
+      "title": "Why your finance app should work offline and keep data on your phone",
+      "description": "What happens to your data in a typical money app, and why on-device storage and AI are a safer design.",
+      "category": "Privacy",
+      "date": "2026-10-12",
+      "readMinutes": 5,
+      "image": "/images/blog/privacy.svg",
+      "imageAlt": "Illustration of a phone with a padlock keeping financial data local",
+      "tags": ["privacy", "security", "offline"],
+      "blocks": [
+        { "type": "p", "text": "Your transactions describe how you live: where you shop, what you earn, who you pay and when. That is sensitive information, and it deserves careful handling." },
+        { "type": "h2", "text": "The cloud trade off" },
+        { "type": "p", "text": "Many finance apps upload your data so they can analyse it on their servers. This can be convenient, but it creates a copy of your financial life outside your control. That copy can be breached, shared with partners, or used for advertising." },
+        { "type": "h2", "text": "What local first means" },
+        { "type": "ul", "items": ["Your ledger lives in an encrypted database on your phone.", "The app works without internet, so it is fast and reliable.", "Intelligence such as categories and coaching runs on the device.", "You decide whether anything ever leaves the phone."] },
+        { "type": "h2", "text": "Questions to ask any money app" },
+        { "type": "ul", "items": ["Where is my data stored, and who can read it?", "Is it encrypted, and who holds the keys?", "Does the app contain advertising or analytics trackers?", "Can I export and delete my data easily?"] },
+        { "type": "callout", "title": "How Valam helps", "text": "Valam keeps your ledger in a hardware protected vault, has no ads or trackers, and runs its coach Mathi on your phone. Optional sync is end to end encrypted." }
+      ]
+    },
+    {
+      "slug": "how-to-split-expenses-with-friends-without-awkwardness",
+      "title": "How to split expenses with friends without the awkwardness",
+      "description": "Practical tips for tracking shared costs, settling up on time and keeping friendships healthy.",
+      "category": "Shared money",
+      "date": "2026-10-05",
+      "readMinutes": 4,
+      "image": "/images/blog/split.svg",
+      "imageAlt": "Illustration of friends splitting a bill",
+      "tags": ["split expenses", "friends", "IOU"],
+      "blocks": [
+        { "type": "p", "text": "Trips, flats and dinners all create small debts. Left untracked, they turn into resentment. A little structure keeps the money simple and the friendship intact." },
+        { "type": "h2", "text": "Agree the rules early" },
+        { "type": "p", "text": "Decide before the trip whether you split equally or by what each person used. Say it out loud once and it rarely becomes a problem." },
+        { "type": "h2", "text": "Record it the same day" },
+        { "type": "p", "text": "Memory fades quickly. Note who paid and who shared the cost right away, with the amount and a short reason." },
+        { "type": "h2", "text": "Simplify the debts" },
+        { "type": "p", "text": "If A owes B and B owes C, A can sometimes pay C directly. Simplifying reduces the number of payments for everyone." },
+        { "type": "h2", "text": "Settle with confirmation" },
+        { "type": "p", "text": "A settlement is real only when the person receiving the money agrees it arrived. Confirmation avoids the classic argument about whether something was paid." },
+        { "type": "callout", "title": "How Valam helps", "text": "Valam keeps a clear ledger of who owes whom. A repayment counts as settled only after the receiver confirms it." }
+      ]
+    },
+    {
+      "slug": "emergency-fund-how-much-do-you-need",
+      "title": "Emergency fund: how much do you really need?",
+      "description": "A clear way to work out the size of your emergency fund, where to keep it and how to build it step by step.",
+      "category": "Saving",
+      "date": "2026-09-28",
+      "readMinutes": 5,
+      "image": "/images/blog/emergency.svg",
+      "imageAlt": "Illustration of a safety net under a household budget",
+      "tags": ["emergency fund", "savings", "safety"],
+      "blocks": [
+        { "type": "p", "text": "An emergency fund is money set aside for surprises such as a medical bill, a job loss or an urgent repair. It keeps one bad month from becoming a debt problem." },
+        { "type": "h2", "text": "A simple rule of thumb" },
+        { "type": "p", "text": "Many planners suggest three to six months of essential expenses. Choose the higher end if your income is irregular or you support dependants. Essentials mean rent, food, EMIs, insurance and utilities, not everything you spend." },
+        { "type": "h2", "text": "Work out your number" },
+        { "type": "p", "text": "If your essentials are 30,000 rupees a month, six months is 1,80,000 rupees. That can look large, so build it in stages." },
+        { "type": "ul", "items": ["First target: one month of essentials.", "Second target: three months.", "Final target: six months or your chosen goal."] },
+        { "type": "h2", "text": "Where to keep it" },
+        { "type": "p", "text": "Choose safe and easy to reach places such as a savings account or a liquid deposit. The goal is access and safety, not high returns." },
+        { "type": "h2", "text": "Make it automatic" },
+        { "type": "p", "text": "Move a fixed amount on salary day into a separate pot. Treat it like a bill you owe to your future self." },
+        { "type": "callout", "title": "How Valam helps", "text": "Create an emergency goal in Valam, link a savings pot and add money as you go. Valam shows if you are on track and what a runway of savings means in months." }
+      ]
+    }
+  ]
+}

@@ -65,7 +65,7 @@
   "contact": {
     "seo": {
       "title": "Contact Valam | Support, Privacy and Feedback | Valam",
-      "description": "Get in touch with the Valam team for support, privacy requests or feedback. We reply within 7 days."
+      "description": "Get in touch with the Valam team for support, privacy requests or feedback. We aim to answer support within 7 days, and answer privacy requests within 30."
     },
     "title": "Talk to us",
     "intro": "A real person reads every message. We aim to reply within 7 days.",
@@ -399,7 +399,7 @@
         {
           "icon": "chart",
           "title": "Think harder (Plus)",
-          "body": "For tough questions you can opt in to a cloud model. A sanitised question is sent, with transaction text and your own merchant and people names removed first."
+          "body": "For tough questions you can opt in to Google Gemini. Your question, the chat so far and Valam's figures are sent for that one answer. Transaction details, notes, people's names and files are left out."
         }
       ]
     },
@@ -451,7 +451,7 @@
         ],
         [
           "Think harder question (optional, Plus)",
-          "Sent to a cloud model, sanitised",
+          "Sent through Valam's server to Google Gemini for one answer, not kept",
           "Processed to answer you"
         ]
       ]

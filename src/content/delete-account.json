@@ -10,7 +10,7 @@
       "id": "in-app",
       "title": "Delete your account in the app",
       "audience": "Recommended. For anyone who signed in",
-      "body": "A Valam account exists only if you signed in for Plus, sync, shared groups or the free month. Deleting it erases everything the server holds for you, straight away.",
+      "body": "A Valam account exists only if you signed in for Plus, sync, shared groups or the free month. Deleting it erases what the server holds for you straight away, apart from the few records listed under What stays.",
       "steps": [
         "Open Valam and go to Settings.",
         "Under Account, tap Delete account. If you are on the Valam Plus screen, you will find the same button at the bottom.",
@@ -60,7 +60,8 @@
       "Your list of shared groups, your invitation inbox and your group identity backup and name",
       "Your Mathi credit balance and its history",
       "Your Plus entitlement record on our server",
-      "Any entry that lets friends find you by email or phone"
+      "Any entry that lets friends find you by email or phone",
+      "Invite codes you made or used, and invitations you sent that have not been opened"
     ]
   },
   "kept": {
@@ -68,8 +69,10 @@
     "items": [
       "Your data on your phone, until you delete it yourself",
       "Shared group history. You leave every group, but the encrypted entries you added stay with the other members, because their balances depend on them",
-      "Purchase records held by Apple, Google and our subscription provider, which they must keep by law",
-      "Limited security and abuse logs, for up to 90 days"
+      "A one-way fingerprint (hash) of your email or phone number, so the free month can't be claimed twice",
+      "Your account id as a former member of each shared group you were in",
+      "Purchase records held by Apple and Google under their own policies, and by RevenueCat, our subscription provider, linked to your account id",
+      "Limited records we must keep for a time where the law requires it"
     ]
   },
   "warning": "Deleting an account is permanent and cannot be undone. Valam cannot restore it. Your data on your phone is not touched, so export a backup if you want a copy.",
@@ -88,5 +91,5 @@
     },
     "subject": "Account deletion request"
   },
-  "contactNote": "Questions about your data? Email privacy@valam.io and we will reply within 7 days."
+  "contactNote": "Questions about your data? Email privacy@valam.io and we will reply within 30 days."
 }

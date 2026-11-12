@@ -377,7 +377,7 @@
     "button": "Notify me",
     "success": "Thank you. We will email you at launch.",
     "error": "Please enter a valid email address.",
-    "consent": "We only use your email to tell you about the launch. See our Privacy Policy.",
+    "consent": "We only use your email to tell you about the launch. Email privacy@valam.io to be removed any time. See our Privacy Policy.",
     "storesLabel": "Coming soon to",
     "endpoint": ""
   },

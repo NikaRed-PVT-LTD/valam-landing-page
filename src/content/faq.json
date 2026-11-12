@@ -22,7 +22,7 @@
     },
     {
       "q": "Does Mathi send my questions to a server?",
-      "a": "By default, no. Mathi runs on your phone. If you choose the optional Think harder feature on Plus, a sanitised version of your question is sent to a cloud model. Transaction text and your own merchant and people names are removed first."
+      "a": "By default, no. Mathi runs on your phone. Think harder on Plus is optional and off until you turn it on. When you tap it, your question, the chat so far and Valam's figures (totals, rates, dates, and the names of your categories, accounts, goals and loans) go through Valam's server to Google Gemini for that one answer. Transaction details, notes, people's names and files are left out, and Valam does not keep the question or the answer."
     },
     {
       "q": "Can Mathi move money or pay my bills?",

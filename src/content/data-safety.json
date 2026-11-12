@@ -10,7 +10,7 @@
     { "icon": "shield", "title": "No ads, no tracking", "body": "No advertising, no third party analytics or tracking SDKs, and we never sell or rent your personal data." },
     { "icon": "check", "title": "No account needed", "body": "The free app works fully without signing in. An account exists only if you choose Plus, sync, shared groups or the free month." },
     { "icon": "key", "title": "Encrypted, with keys only you hold", "body": "Data is encrypted on the device and in transit. Because we do not hold your keys, we cannot read your data." },
-    { "icon": "backup", "title": "Delete any time", "body": "Delete your account and cloud data yourself in Settings. Server data is erased immediately." },
+    { "icon": "backup", "title": "Delete any time", "body": "Delete your account and cloud data yourself in Settings. Server data is erased straight away, apart from the few records listed below." },
     { "icon": "eye", "title": "Optional means optional", "body": "Sync, groups and cloud reasoning are off until you turn them on, and you can turn them off again whenever you like." }
   ],
   "collected": {
@@ -23,7 +23,7 @@
       ["User IDs (sign in ID, app user ID)", "Optional", "Yes", "Used to sign you in and verify your subscription. Handled by Google Firebase and RevenueCat on our behalf."],
       ["Purchase history", "Optional", "Yes", "Plus purchases are handled by Apple or Google. We only learn whether your subscription is active. We never see card details."],
       ["Messages (chat with Mathi)", "No", "No", "Mathi runs on your device by default. Chats stay encrypted on your phone."],
-      ["Cloud reasoning question (Think harder, Plus)", "Optional", "Yes", "A sanitised question and a summary of numbers go to a cloud language model. Transaction text and your own merchant and people names are removed first."],
+      ["Cloud reasoning question (Think harder, Plus)", "Optional", "Yes", "Off unless you turn it on. Your question, the chat so far and Valam's figures (totals, rates, dates, and the names of your categories, accounts, goals and loans) go through Valam's server to Google Gemini for that one answer. Transaction details, notes, people's names and files are left out, and Valam does not keep the question or the answer."],
       ["SMS (Android only)", "No", "No", "If you allow it, bank messages are read on your device at unlock to find transactions. They are not uploaded."],
       ["Audio (voice mode)", "No", "No", "Processed on the device where supported. Optional."],
       ["Files and attachments", "No", "No", "Imports and backups happen on your phone. Backups are encrypted with your passphrase."],
@@ -38,7 +38,7 @@
     "items": [
       { "title": "Google Firebase", "body": "Sign in, hosting of encrypted sync and group records, and cloud functions." },
       { "title": "RevenueCat, Apple and Google", "body": "Subscriptions and purchases. They hold purchase records under their own policies." },
-      { "title": "Cloud language model provider", "body": "Only for optional Think harder requests, using sanitised input. We ask the provider not to use the content to train its models." },
+      { "title": "Google Gemini", "body": "Only for optional Think harder requests, with transaction details, notes, people's names and files left out. Gemini may process data outside India." },
       { "title": "Apple iCloud or Google Drive", "body": "Optional sync into your own storage account. We cannot read what is stored there." }
     ]
   },
@@ -69,9 +69,9 @@
     "title": "Keeping and deleting your data",
     "items": [
       "Data on your phone stays until you delete it or remove the app.",
-      "Delete your account in the app (Settings, then Delete account) and the data our servers hold is erased immediately.",
+      "Delete your account in the app (Settings, then Delete account) and the data our servers hold for it is erased straight away.",
       "If you cannot open the app, email privacy@valam.io. After verifying it is you, we delete your data within 30 days.",
-      "Limited security and abuse logs are kept for up to 90 days. Purchase records are kept by Apple, Google and our subscription provider as the law requires.",
+      "A one-way fingerprint (hash) of your email or phone number is kept after deletion, so the free month can't be claimed twice. Limited records are kept for a time where the law requires it. Purchase records are held by Apple and Google under their own policies, and by RevenueCat, our subscription provider, linked to your account id.",
       "Entries you added to a shared group stay with the other members, because their balances depend on them."
     ],
     "cta": "How to delete your account"
@@ -80,5 +80,5 @@
     "title": "Children",
     "body": "Valam is not directed to children under 18, and we do not knowingly collect personal data from them."
   },
-  "contact": "Questions about data safety? Email privacy@valam.io and we will reply within 7 days."
+  "contact": "Questions about data safety, or a rights request or grievance? Email privacy@valam.io and we will reply within 30 days."
 }

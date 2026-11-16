@@ -1,6 +1,6 @@
 import { Button, Container, Reveal } from "@/components/ui";
 
-export function CtaBand({ title = "Ready to try Valam?", body = "Join the launch list and we will email you once, the day it is available.", label = "Join the launch list", href = "/#download" }: { title?: string; body?: string; label?: string; href?: string }) {
+export function CtaBand({ title = "Ready to try Valam?", body = "Get Valam free on Google Play. On iPhone? Join the launch list and we will email you the day it lands.", label = "Get the app", href = "/#download" }: { title?: string; body?: string; label?: string; href?: string }) {
   return (
     <section className="section section--dark" aria-label="Get Valam">
       <Container>

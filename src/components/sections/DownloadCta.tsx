@@ -40,8 +40,15 @@ export function DownloadCta() {
         </div>
         <p style={{ fontSize: 13 }}>{d.consent}</p>
         <div className="stores"><span>{d.storesLabel}</span>
-          <span className="store"><Icon name="apple" size={18} />{site.stores.ios.label}</span>
-          <span className="store"><Icon name="android" size={18} />{site.stores.android.label}</span>
+          {([["android", site.stores.android], ["apple", site.stores.ios]] as const).map(([icon, s]) =>
+            s.available && s.href ? (
+              <a key={icon} className="store store--live" href={s.href} target="_blank" rel="noopener">
+                <Icon name={icon} size={18} />{s.label}
+              </a>
+            ) : (
+              <span key={icon} className="store store--soon"><Icon name={icon} size={18} />{s.label} <small>(coming soon)</small></span>
+            )
+          )}
         </div>
       </Reveal>
     </Section>

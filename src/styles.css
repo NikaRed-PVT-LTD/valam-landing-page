@@ -234,6 +234,10 @@ button { font-family: inherit; }
 .form-msg--ok { color: var(--lime); } .form-msg--err { color: #ffb4be; }
 .stores { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 24px; align-items: center; }
 .store { display: inline-flex; gap: 8px; align-items: center; padding: 10px 18px; border-radius: 14px; border: 1px solid rgba(255,255,255,.25); font-weight: 700; font-size: 14px; background: rgba(255,255,255,.06); }
+.store--live { color: var(--green-950); background: #fff; border-color: #fff; text-decoration: none; transition: transform .15s ease; }
+.store--live:hover { transform: translateY(-1px); }
+.store--soon { opacity: .7; }
+.store--soon small { font-weight: 500; }
 
 /* footer */
 .footer { background: var(--green-950); color: #bfe3d0; padding: 64px 0 28px; }

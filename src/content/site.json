@@ -59,8 +59,8 @@
     },
     "android": {
       "label": "Google Play",
-      "href": "",
-      "available": false
+      "href": "https://play.google.com/store/apps/details?id=app.valam.finance",
+      "available": true
     }
   },
   "footer": {

@@ -316,6 +316,7 @@
       {
         "name": "Free",
         "tag": "Always",
+        "price": "₹0",
         "highlight": false,
         "description": "Everything you need to track and understand your money, with no sign up.",
         "features": [
@@ -330,6 +331,7 @@
       {
         "name": "Plus",
         "tag": "Now on Android",
+        "price": "₹90 a month or ₹790 a year",
         "highlight": true,
         "description": "For people who want to go further with Mathi, sync and shared groups.",
         "features": [
@@ -337,11 +339,12 @@
           "Think harder with 10 cloud credits a day",
           "Encrypted sync through your own iCloud or Google Drive",
           "Shared groups and splits with friends",
-          "Bank SMS and email import, with card alerts sent to the right card"
+          "Bank SMS and email import, with card alerts sent to the right card",
+          "Invite friends and get a free month for each one who subscribes"
         ]
       }
     ],
-    "note": "Prices are set in Google Play and shown in the app, in your local currency, before you buy. On iPhone, Plus arrives with the App Store launch."
+    "note": "Plus is sold through Google Play in India. Extra Think harder credits come in packs of 50, 150 and 500 for ₹50, ₹120 and ₹390. On iPhone, Plus arrives with the App Store launch."
   },
   "audiences": {
     "eyebrow": "Who it is for",
@@ -433,7 +436,7 @@
     "pricing": {
       "seo": {
         "title": "Valam Plus | Free to Start, Optional Plus | Valam",
-        "description": "Valam is free to start with no sign up. Valam Plus, now on Android with a free first month, adds unlimited Mathi, encrypted sync, shared groups and bank SMS import."
+        "description": "Valam is free to start with no sign up. Valam Plus is ₹90 a month or ₹790 a year on Android, with a free first month, and adds unlimited Mathi, encrypted sync, shared groups and bank SMS import."
       },
       "title": "Start free. Add Plus when you want more.",
       "intro": "The core app is free and fully private. Plus is optional, now on Android, and your first month is free.",

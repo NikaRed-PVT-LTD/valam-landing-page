@@ -21,6 +21,10 @@
       "a": "Mathi is the AI money coach inside Valam. The name means good sense in Tamil. Mathi reads your real numbers, checks the figures it quotes and only answers questions about money."
     },
     {
+      "q": "Can I talk to Mathi in Tamil?",
+      "a": "Yes. Write or speak in Tamil, Tanglish or English, and Mathi understands your money questions and turns Tamil entries into drafts you confirm. Choose Automatic, English or தமிழ் under Mathi's language in Settings. Talking in Tamil needs your phone's offline Tamil speech recognition, and Live voice is English only for now."
+    },
+    {
       "q": "Does Mathi send my questions to a server?",
       "a": "By default, no. Mathi runs on your phone. Think harder on Plus is optional and off until you turn it on. When you tap it, your question, the chat so far and Valam's figures (totals, rates, dates, and the names of your categories, accounts, goals and loans) go through Valam's server to Google Gemini for that one answer. Transaction details, notes, people's names and files are left out, and Valam does not keep the question or the answer."
     },
@@ -46,7 +50,7 @@
     },
     {
       "q": "Is Valam free?",
-      "a": "The core app is free. Valam Plus is an optional subscription, available now on Android, that adds unlimited Mathi, encrypted sync, shared groups and bank SMS and email import. Your first month is free. Prices are shown in the app before you buy."
+      "a": "The core app is free. Valam Plus is an optional subscription, available now on Android for ₹90 a month or ₹790 a year, that adds unlimited Mathi, encrypted sync, shared groups and bank SMS and email import. Your first month is free, and you can earn more free months by inviting friends."
     },
     {
       "q": "Is Valam financial advice?",

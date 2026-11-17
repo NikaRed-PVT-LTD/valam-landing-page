@@ -62,7 +62,8 @@
         "Shared groups (only if you use them): bills, settlements and group names are sealed with the group's key, and so is your name inside each group. Valam's server sees which accounts are in a group and when entries were added, and keeps the display name you choose for groups with your account.",
         "\"Let friends find me\" (off unless you turn it on): your display name and a fingerprint (hash) of your verified email or phone, so a friend who types that exact address or number can find you. Anyone who knows your email or number could check whether you use Valam.",
         "Think harder (off unless you turn it on, and it asks for its own consent): when you tap it, your question, the chat so far and Valam's figures (totals, rates, dates, and the names of your categories, accounts, goals and loans) go through Valam's server to Google Gemini for that one answer. Transaction details, notes, people's names and files are left out, but what you type yourself is sent as typed, so avoid typing passwords, full card numbers or ID numbers. Valam does not keep the question or the answer.",
-        "One free month per person: a one-way fingerprint (hash) of your email or phone number is kept, even after you delete the account, so the free month can't be claimed twice."
+        "Invite friends (only if you use it): your invite code. If you join with someone's code, which account invited you and whether you later subscribed. Purpose: to give the person who invited you a free month, once per friend. They see only counts, never who. If you pay through Google Play, your reward month moves your next charge date through RevenueCat. Erased with your account.",
+        "One free month per person: a one-way fingerprint (hash) of your email or phone number is kept, even after you delete the account, so the free month can't be claimed twice, and a subscription can earn the person who invited you only one free month."
       ]
     },
     {

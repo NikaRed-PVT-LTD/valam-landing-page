@@ -55,8 +55,8 @@
     "next": {
       "title": "What is next",
       "items": [
-        "Launch on the App Store for iPhone",
-        "Valam Plus with unlimited Mathi, sync and shared groups",
+        "Launch on the App Store for iPhone, with Valam Plus",
+        "Optional encrypted sync on Valam's own server",
         "Keep improving the coach, import and plans based on your feedback"
       ],
       "note": "Plans can change. Join the launch list on the home page to hear first."
@@ -376,7 +376,7 @@
         },
         {
           "title": "Written in plain words",
-          "body": "The answer is written by the built in coach or by an on-device model."
+          "body": "The answer is written by the built in coach or by an on-device model, in English or Tamil."
         },
         {
           "title": "Numbers checked",
@@ -442,7 +442,7 @@
         ],
         [
           "Sync copy (optional, Plus)",
-          "Your iCloud or Google Drive, or Valam hosted",
+          "Your own iCloud or Google Drive",
           "Only you, it is sealed on your phone first"
         ],
         [
@@ -504,6 +504,11 @@
       ],
       "rows": [
         [
+          "Price",
+          "₹0",
+          "₹90 a month or ₹790 a year, first month free"
+        ],
+        [
           "Accounts, cards, loans, goals",
           "Yes",
           "Yes"
@@ -531,7 +536,7 @@
         [
           "Think harder with cloud reasoning",
           "No",
-          "10 credits a day, plus packs"
+          "10 credits a day, plus packs from ₹50"
         ],
         [
           "On-device Mathi model",
@@ -546,7 +551,7 @@
         [
           "Encrypted sync on Valam's server",
           "No",
-          "Optional add-on"
+          "Not available yet"
         ],
         [
           "Shared groups and splits",
@@ -573,15 +578,19 @@
         },
         {
           "q": "What are credits?",
-          "a": "Credits pay for optional Think harder questions, one credit per question. Plus includes 10 credits a day, which reset at midnight India time. If you need more, you can buy packs, which do not expire while Plus is active."
+          "a": "Credits pay for optional Think harder questions, one credit per question. Plus includes 10 credits a day, which reset at midnight India time. If you need more, packs of 50, 150 and 500 credits cost ₹50, ₹120 and ₹390. Bought credits do not expire, and you can use them while Plus is active."
         },
         {
           "q": "Is sync included in Plus?",
-          "a": "Yes. Plus includes end to end encrypted sync to your own iCloud or Google Drive, where Valam never holds your data. If you want Valam to keep the sealed copy on its own server instead, that is an optional add-on."
+          "a": "Yes. Plus includes end to end encrypted sync to your own iCloud or Google Drive, where Valam never holds your data. An option for Valam to keep the sealed copy on its own server is planned but not available yet."
         },
         {
           "q": "How much does Plus cost?",
-          "a": "Prices are set in Google Play and shown in the app, in your local currency, before you buy. On Google Play, Valam's in-app purchases currently range from ₹50 to ₹790. Your first month of Plus is free, with no card needed."
+          "a": "Plus is ₹90 a month or ₹790 a year, bought through Google Play in India. Your first month is free, with no card needed. The app shows the price again before you buy, and you can cancel any time in Google Play."
+        },
+        {
+          "q": "Can I get Plus free by inviting friends?",
+          "a": "Yes. Share your invite link from the Plus screen or Settings. Your friend gets the usual free month, and when they first pay for Plus you get a free month too, once per friend and up to 12 a year. If you pay through Google Play, your next charge simply moves a month later."
         }
       ]
     }

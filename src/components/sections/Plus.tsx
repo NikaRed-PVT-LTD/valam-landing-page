@@ -10,6 +10,7 @@ export function Plus({ bare }: { bare?: boolean }) {
           <Reveal key={t.name} delay={i * 0.12}>
             <div className={`card tier ${t.highlight ? "tier--hl" : ""}`}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ fontSize: 26, margin: 0 }}>{t.name}</h3><Badge highlight={t.highlight}>{t.tag}</Badge></div>
+              {t.price && <p className="tier__price" style={{ marginTop: 10, marginBottom: 0, fontSize: 20, fontWeight: 700 }}>{t.price}</p>}
               <p style={{ marginTop: 10 }}>{t.description}</p>
               <ul>{t.features.map((f) => <li key={f}><Icon name="check" size={18} />{f}</li>)}</ul>
             </div>

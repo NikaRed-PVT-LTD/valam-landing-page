@@ -133,7 +133,7 @@
       {
         "icon": "import",
         "title": "Easy import",
-        "body": "Bring in history from bank CSV or OFX files, and on Android from bank SMS, all processed on your phone."
+        "body": "Bring in history from bank CSV or OFX files, and on Plus from bank SMS on Android and pasted alert emails, all processed on your phone."
       }
     ]
   },
@@ -311,7 +311,7 @@
     "id": "plus",
     "eyebrow": "Valam Plus",
     "title": "Start free. Add Plus when you want more.",
-    "subtitle": "The core app is free and fully private. Plus is optional and coming soon.",
+    "subtitle": "The core app is free and fully private. Plus is optional, now on Android, and your first month is free.",
     "tiers": [
       {
         "name": "Free",
@@ -320,27 +320,28 @@
         "description": "Everything you need to track and understand your money, with no sign up.",
         "features": [
           "Accounts, cards, loans and goals",
-          "Smart categories and import",
+          "Smart categories",
           "Reminders and calendar",
           "Built in coach with one free Mathi question",
+          "Bank file import (CSV, OFX, QFX)",
           "Local, encrypted data"
         ]
       },
       {
         "name": "Plus",
-        "tag": "Coming soon",
+        "tag": "Now on Android",
         "highlight": true,
         "description": "For people who want to go further with Mathi, sync and shared groups.",
         "features": [
-          "Unlimited Mathi conversations",
-          "Optional extra reasoning with daily credits",
-          "Sync across your devices, end to end encrypted",
+          "Unlimited Mathi conversations, and Mathi Full on capable phones",
+          "Think harder with 10 cloud credits a day",
+          "Encrypted sync through your own iCloud or Google Drive",
           "Shared groups and splits with friends",
-          "SMS and bank email sync"
+          "Bank SMS and email import, with card alerts sent to the right card"
         ]
       }
     ],
-    "note": "Plus features and pricing are subject to change before launch."
+    "note": "Prices are set in Google Play and shown in the app, in your local currency, before you buy. On iPhone, Plus arrives with the App Store launch."
   },
   "audiences": {
     "eyebrow": "Who it is for",
@@ -432,10 +433,10 @@
     "pricing": {
       "seo": {
         "title": "Valam Plus | Free to Start, Optional Plus | Valam",
-        "description": "Valam is free to start with no sign up. Valam Plus, coming soon, adds unlimited Mathi, encrypted sync and shared groups."
+        "description": "Valam is free to start with no sign up. Valam Plus, now on Android with a free first month, adds unlimited Mathi, encrypted sync, shared groups and bank SMS import."
       },
       "title": "Start free. Add Plus when you want more.",
-      "intro": "The core app is free and fully private. Plus is optional and coming soon.",
+      "intro": "The core app is free and fully private. Plus is optional, now on Android, and your first month is free.",
       "crumb": "Plus"
     },
     "faq": {

@@ -198,8 +198,9 @@
         "body": "Bring in history instead of typing it. Valam reads bank files on your phone, flags duplicates and warns you about rows that would move your balance.",
         "bullets": [
           "CSV presets for ten banks, plus OFX and QFX",
-          "Bank SMS on Android, read from your inbox",
-          "iOS Shortcuts link for bank messages",
+          "Bank SMS on Android, read from your inbox (Plus)",
+          "Card alerts go to the right card, and card bill payments are linked as transfers",
+          "iOS Shortcuts automation for Apple Wallet payments",
           "Duplicate detection before you commit"
         ]
       }
@@ -264,7 +265,7 @@
         },
         {
           "title": "3. Track or import",
-          "body": "Log new spending in a few taps, or import history from a file or SMS. Valam sorts transactions into categories and asks only when unsure.",
+          "body": "Log new spending in a few taps, or import history from a bank file, or from SMS on Plus. Valam sorts transactions into categories and asks only when unsure.",
           "tips": [
             "Fix a category once and Valam remembers it.",
             "Check the import preview before you confirm.",
@@ -292,8 +293,8 @@
         },
         {
           "icon": "mail",
-          "title": "Bank SMS",
-          "body": "On Android, Valam can read bank messages from your inbox when you unlock. On iPhone, a Shortcuts link passes messages in. Nothing is uploaded."
+          "title": "Bank SMS and email",
+          "body": "On Plus, Valam reads bank messages from your Android inbox when you unlock and sends card alerts to the right card. You can also paste bank alert emails. On iPhone, a Shortcuts automation adds Apple Wallet card payments. Nothing is uploaded."
         },
         {
           "icon": "wallet",
@@ -508,7 +509,7 @@
           "Yes"
         ],
         [
-          "Smart categories and import",
+          "Smart categories and bank file import",
           "Yes",
           "Yes"
         ],
@@ -530,12 +531,22 @@
         [
           "Think harder with cloud reasoning",
           "No",
-          "Daily credits, plus packs"
+          "10 credits a day, plus packs"
         ],
         [
-          "Sync across your devices",
+          "On-device Mathi model",
+          "Mathi Lite",
+          "Mathi Full, on phones with the memory for it"
+        ],
+        [
+          "Encrypted sync to your own iCloud or Google Drive",
           "No",
-          "Yes, end to end encrypted"
+          "Included"
+        ],
+        [
+          "Encrypted sync on Valam's server",
+          "No",
+          "Optional add-on"
         ],
         [
           "Shared groups and splits",
@@ -543,9 +554,9 @@
           "Yes"
         ],
         [
-          "SMS and bank email sync",
+          "Bank SMS and email import",
           "No",
-          "Yes"
+          "Yes, with new SMS picked up when you unlock"
         ]
       ]
     },
@@ -554,19 +565,23 @@
       "items": [
         {
           "q": "Do I need Plus to track my money?",
-          "a": "No. Tracking, budgets, goals, loans, cards, reminders and import are all free."
+          "a": "No. Tracking, budgets, goals, loans, cards, reminders and bank file import (CSV, OFX and QFX) are all free. Bank SMS and email import are part of Plus."
         },
         {
           "q": "What happens if Plus ends?",
-          "a": "Your data stays on your phone. Sync pauses and Mathi returns to the free allowance."
+          "a": "Your data stays on your phone. Sync pauses, bank SMS import stops picking up new messages, and Mathi returns to the free allowance."
         },
         {
           "q": "What are credits?",
-          "a": "Credits pay for optional Think harder questions. Plus includes a daily amount, and you can buy packs that do not expire while Plus is active."
+          "a": "Credits pay for optional Think harder questions, one credit per question. Plus includes 10 credits a day, which reset at midnight India time. If you need more, you can buy packs, which do not expire while Plus is active."
+        },
+        {
+          "q": "Is sync included in Plus?",
+          "a": "Yes. Plus includes end to end encrypted sync to your own iCloud or Google Drive, where Valam never holds your data. If you want Valam to keep the sealed copy on its own server instead, that is an optional add-on."
         },
         {
           "q": "How much does Plus cost?",
-          "a": "Pricing is not final. It will be shown in the app, in your local currency, before you buy."
+          "a": "Prices are set in Google Play and shown in the app, in your local currency, before you buy. On Google Play, Valam's in-app purchases currently range from ₹50 to ₹790. Your first month of Plus is free, with no card needed."
         }
       ]
     }

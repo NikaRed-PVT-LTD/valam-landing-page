@@ -34,7 +34,7 @@
     },
     {
       "q": "How do I add my past transactions?",
-      "a": "Import CSV or OFX files from your bank. On Android you can also read bank SMS from the phone inbox. All parsing happens on your device and duplicates are detected for you."
+      "a": "Import CSV, OFX or QFX files from your bank for free. On Plus, Valam can also read bank SMS from your Android inbox when you unlock, and you can paste bank alert emails. Card alerts go to the right card and card bill payments are linked as transfers. All parsing happens on your device and duplicates are detected for you."
     },
     {
       "q": "Can I split expenses with friends?",
@@ -46,7 +46,7 @@
     },
     {
       "q": "Is Valam free?",
-      "a": "The core app is free. Valam Plus is an optional subscription that is coming soon and adds unlimited Mathi, sync and shared groups. Pricing will be shown in the app before you buy."
+      "a": "The core app is free. Valam Plus is an optional subscription, available now on Android, that adds unlimited Mathi, encrypted sync, shared groups and bank SMS and email import. Your first month is free. Prices are shown in the app before you buy."
     },
     {
       "q": "Is Valam financial advice?",

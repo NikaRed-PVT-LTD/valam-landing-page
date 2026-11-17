@@ -3,7 +3,7 @@ import { TipSteps } from "@/components/blocks/TipSteps";
 import { PageHero } from "@/components/layout/PageHero";
 import { Steps } from "@/components/sections/Steps";
 import { VideoSection } from "@/components/sections/VideoSection";
-import { Card, Reveal, Section } from "@/components/ui";
+import { Button, Card, Reveal, Section } from "@/components/ui";
 import { home, pages } from "@/lib/content";
 
 export default function HowItWorks() {
@@ -29,6 +29,10 @@ export default function HowItWorks() {
       </Section>
       <Section tone="tint" title={x.newPhone.title}>
         <p className="band-note" style={{ marginTop: 0, fontSize: 18 }}>{x.newPhone.body}</p>
+      </Section>
+      <Section id="guides" eyebrow="Guides" title="Step by step help for every feature">
+        <p className="band-note" style={{ marginTop: 0, fontSize: 18 }}>From your first two minutes to loans, imports, backups and Plus, each guide walks you through it one step at a time.</p>
+        <p style={{ display: "flex", gap: 12, flexWrap: "wrap" }}><Button href="/guides/getting-started" arrow>Getting started</Button><Button href="/guides" variant="ghost">All guides</Button></p>
       </Section>
       <CtaBand />
     </>

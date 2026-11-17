@@ -1,0 +1,1262 @@
+{
+  "hub": {
+    "seo": {
+      "title": "Valam Guides | Get Started and Learn Every Feature | Valam",
+      "description": "Step by step guides for Valam, the private money app. Set up in two minutes, track spending, import bank SMS, plan loans, use Mathi and stay safe."
+    },
+    "title": "Valam guides",
+    "intro": "Short, step by step help for every part of Valam, from your first two minutes to tax, chit funds and your money roadmap. New here? Start with the first guide.",
+    "crumb": "Guides",
+    "startHere": {
+      "title": "New to Valam? Start here",
+      "body": "Install the app, lock it to you and add your main bank account. That is all Valam needs to start.",
+      "cta": "Read the getting started guide"
+    },
+    "categories": [
+      {
+        "id": "start",
+        "title": "Start here",
+        "body": "Install, lock and set up Valam."
+      },
+      {
+        "id": "track",
+        "title": "Track your money",
+        "body": "Accounts, spending, import and budgets."
+      },
+      {
+        "id": "plan",
+        "title": "Plan ahead",
+        "body": "Goals, loans, cards, investments, chit funds and tax."
+      },
+      {
+        "id": "grow",
+        "title": "Build habits and grow",
+        "body": "Rules, challenges and your money roadmap."
+      },
+      {
+        "id": "mathi",
+        "title": "Mathi, your coach",
+        "body": "Ask questions and check big decisions."
+      },
+      {
+        "id": "safety",
+        "title": "Safety and Plus",
+        "body": "Lock, backups, new phones and Plus."
+      }
+    ]
+  },
+  "updated": "2026-11-17",
+  "guides": [
+    {
+      "slug": "getting-started",
+      "category": "start",
+      "icon": "spark",
+      "title": "Getting started with Valam",
+      "seoTitle": "How to Set Up Valam: Getting Started in 2 Minutes | Valam",
+      "description": "Install Valam, lock it with your fingerprint, Face ID or phone PIN, and add your main bank account. A step by step guide to the first two minutes.",
+      "minutes": 2,
+      "plan": "Free",
+      "intro": "Valam needs no sign up and no email. Setup has three short screens: a welcome, a lock and your main bank account. Here is what each one does.",
+      "needs": [
+        "An Android phone with a screen lock (PIN, pattern, fingerprint or face unlock)",
+        "The current balance of the bank account your salary lands in",
+        "About two minutes"
+      ],
+      "steps": [
+        {
+          "title": "Install Valam from Google Play",
+          "body": "Search for Valam on Google Play, or use the Get the app button on this site. The app is free to install. The iPhone app is on its way, and you can join the launch list on the home page."
+        },
+        {
+          "title": "Choose Set up Valam",
+          "body": "The first screen explains that your money stays on your phone, locked by its security chip, with Mathi as an on-device coach. Tap Set up Valam to begin with your own money.",
+          "tips": [
+            "Want to look around first? Tap Explore with demo data to open Valam filled with sample numbers."
+          ]
+        },
+        {
+          "title": "Lock Valam to you",
+          "body": "Tap Turn on lock. Valam creates its encryption keys in your phone's secure hardware, and from now on it opens with your fingerprint, face or phone PIN.",
+          "tips": [
+            "If you see a message asking for a screen lock, set a PIN, pattern, fingerprint or face unlock in your phone's settings, then try again.",
+            "You can add a second lock, an extra passphrase, later in Settings."
+          ]
+        },
+        {
+          "title": "Add your main bank account",
+          "body": "Pick your country, give the account a name and enter its balance right now. Add the cash in your wallet too if you like. Tap Start using Valam.",
+          "tips": [
+            "Use the account your salary lands in. You can add cards, loans and more accounts later from Home.",
+            "Not ready? Tap Skip for now and add accounts later."
+          ]
+        },
+        {
+          "title": "Decide on Plus, or skip it",
+          "body": "You may see Valam Plus with a free first month. Everything in the core app stays free, so tap Not now if you only want to track your money. You can start Plus later from Settings."
+        },
+        {
+          "title": "Look around the five tabs",
+          "body": "Home shows your net worth, safe to spend and what is coming up. Activity lists your transactions. Mathi is your coach. Plan holds budgets, goals and loans. Wealth shows your accounts, cards and investments. The add button records new spending from anywhere."
+        }
+      ],
+      "callout": {
+        "title": "Next: take the tour, then finish your checklist",
+        "text": "Home shows a short checklist that makes safe to spend and every alert accurate. It takes about ten minutes and you can do it in any order."
+      },
+      "faq": [
+        {
+          "q": "Do I need an account or email to use Valam?",
+          "a": "No. The free app works fully without signing in. An account is only needed for optional Plus features such as sync and shared groups."
+        },
+        {
+          "q": "Why does Valam need my phone's screen lock?",
+          "a": "Valam's encryption key is sealed in your phone's secure hardware and released only after your fingerprint, face or phone PIN. Without a screen lock there is nothing to protect the key with."
+        },
+        {
+          "q": "Can I change the balance I entered?",
+          "a": "Yes. Open the account from Wealth or Home and edit it at any time."
+        }
+      ],
+      "related": [
+        "how-to-use-valam",
+        "setup-checklist",
+        "add-accounts-cards-and-loans"
+      ]
+    },
+    {
+      "slug": "how-to-use-valam",
+      "category": "start",
+      "icon": "eye",
+      "title": "How to use Valam: a tour of the app",
+      "seoTitle": "How to Use Valam: A Tour of Every Tab | Valam",
+      "description": "A screen by screen tour of Valam. What Home, Activity, Mathi, Plan and Wealth show, where each feature lives and a simple daily, weekly and monthly routine.",
+      "minutes": 5,
+      "plan": "Free",
+      "intro": "Valam has five tabs and one add button. Once you know what each tab is for, every feature is two taps away. Here is the tour, then a simple routine that keeps your numbers right.",
+      "steps": [
+        {
+          "title": "Home: your money at a glance",
+          "body": "Home shows your net worth, safe to spend today, what is coming up, your budgets, savings pots and goals. Get stronger lists the next steps ranked by impact for you, and Worth a look points out anything unusual."
+        },
+        {
+          "title": "Activity: every transaction",
+          "body": "Activity lists everything you spent and received, with search and filters, and a pace card that shows whether this month's spending is ahead of plan. Tap any entry to change it."
+        },
+        {
+          "title": "Mathi: ask your coach",
+          "body": "Ask money questions in plain words, by typing or speaking. Mathi answers from your own numbers and checks every figure before you see it."
+        },
+        {
+          "title": "Plan: budgets, goals and the road ahead",
+          "body": "Plan holds your monthly surplus, budgets, goals, Bills and dues, Discipline, Income tax, Insights and Can I afford it? Your roadmap level is shown at the top."
+        },
+        {
+          "title": "Wealth: what you own and owe",
+          "body": "Wealth lists your accounts, savings, investments and funds, what you owe and money with people. Tap Net worth to see own minus owe, month by month."
+        },
+        {
+          "title": "The add button",
+          "body": "Record spending, income, a transfer or money lent and borrowed from any tab. Scan bill reads a receipt for you."
+        },
+        {
+          "title": "Settings",
+          "body": "Settings has your lock and privacy options, backups, Mathi's language and coach brain, import, Valam Plus and your data rights."
+        }
+      ],
+      "callout": {
+        "title": "A simple routine",
+        "text": "Daily: log spending or let SMS import catch it, and glance at safe to spend. Weekly: check Activity and fix any categories. Monthly: review budgets and goals, record card statements and make an encrypted backup."
+      },
+      "faq": [
+        {
+          "q": "Where do I start if I am new?",
+          "a": "Follow the getting started guide, then the setup checklist on Home. After that, this tour shows where everything else lives."
+        },
+        {
+          "q": "Can I try Valam without my own data?",
+          "a": "Yes. Choose Explore with demo data on the first screen to open Valam filled with sample numbers."
+        }
+      ],
+      "related": [
+        "getting-started",
+        "setup-checklist",
+        "track-spending"
+      ]
+    },
+    {
+      "slug": "setup-checklist",
+      "category": "start",
+      "icon": "check",
+      "title": "Finish your setup checklist",
+      "seoTitle": "Valam Setup Checklist: 7 Steps to Accurate Numbers | Valam",
+      "description": "The seven step setup checklist on Valam's Home screen: accounts, income and payday, transactions, a budget, a goal, your safety net and a backup.",
+      "minutes": 10,
+      "plan": "Free",
+      "intro": "After setup, Home shows a checklist of seven steps. Each one makes Valam's numbers more useful. Tap the card to see all steps, then tap any step to do it or change it.",
+      "needs": [
+        "Your monthly take home income and payday",
+        "A bank statement file or a few recent transactions",
+        "Your insurance cover amounts, if you have them"
+      ],
+      "steps": [
+        {
+          "title": "Your accounts",
+          "body": "Add the bank account your salary lands in, if you skipped it during setup. Add other bank accounts, wallets and cards here too."
+        },
+        {
+          "title": "About you",
+          "body": "Enter your monthly income and payday. Valam uses them to work out safe to spend and to time every alert, so this step matters most."
+        },
+        {
+          "title": "Your transactions",
+          "body": "Import a bank statement or bank alerts, or add a few transactions by hand, so Valam can see where your money goes."
+        },
+        {
+          "title": "A monthly budget",
+          "body": "Set a limit for the one category where money leaks the most, such as food delivery or shopping. One budget is enough to start."
+        },
+        {
+          "title": "A savings goal",
+          "body": "Most people start with an emergency fund. Valam suggests a target and shows how much to put away each month."
+        },
+        {
+          "title": "Your safety net",
+          "body": "Enter your life and health insurance cover and an emergency fund target. These protect everything else, so Valam checks them in your health score."
+        },
+        {
+          "title": "An encrypted backup",
+          "body": "Your money data lives only on this phone. Make an encrypted backup file so it survives a lost or broken phone."
+        }
+      ],
+      "callout": {
+        "title": "You do not have to finish in one go",
+        "text": "Each step is ticked off on its own as soon as Valam sees it done. Skipped steps stay on the list so you can come back later."
+      },
+      "faq": [
+        {
+          "q": "Where do I find the checklist?",
+          "a": "It is the setup card on Home. Tap it to see all seven steps and how many are done."
+        },
+        {
+          "q": "Why is safe to spend wrong?",
+          "a": "Usually income or payday is missing. Fill in About you on the checklist and safe to spend updates straight away."
+        }
+      ],
+      "related": [
+        "getting-started",
+        "budgets-and-safe-to-spend",
+        "backup-and-new-phone"
+      ]
+    },
+    {
+      "slug": "add-accounts-cards-and-loans",
+      "category": "track",
+      "icon": "wallet",
+      "title": "Add bank accounts, cards and loans",
+      "seoTitle": "Add Bank Accounts, Credit Cards and Loans | Valam",
+      "description": "Add every bank account, credit card and loan to Valam so your net worth, card dues and EMIs are all in one place. What to enter and why.",
+      "minutes": 5,
+      "plan": "Free",
+      "intro": "Valam is most useful when it sees everything you own and owe. Each item takes a minute, and you only need a few numbers from your bank app or statement.",
+      "needs": [
+        "Current balances of your bank accounts",
+        "Your card's limit, statement date and due date",
+        "Your loan amount, rate, EMI date and start date"
+      ],
+      "steps": [
+        {
+          "title": "Add more bank accounts",
+          "body": "Open Wealth and add an account. Give it a name and its balance today. Add the last 4 digits of the account number so imported bank SMS land on the right account."
+        },
+        {
+          "title": "Add your credit cards",
+          "body": "Enter the issuer and card name, the last 4 digits, credit limit, statement date and the number of days to pay after it. Add the annual fee and monthly interest rate if you know them.",
+          "tips": [
+            "Turn on Autopay and pick the paying account if your bank pays the card for you."
+          ]
+        },
+        {
+          "title": "Add your loans",
+          "body": "Enter the lender, loan amount, interest rate, number of months, EMI day and the account EMIs are paid from. Choose how interest is charged and whether the rate is fixed or floating.",
+          "tips": [
+            "Have a recent loan statement? Use From your latest loan statement on the loan page to correct the outstanding balance."
+          ]
+        },
+        {
+          "title": "Check Home",
+          "body": "Your net worth, upcoming EMIs and card dues now appear on Home and in the calendar, with reminders before each due date."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Valam connect to my bank?",
+          "a": "No. Valam never logs in to your bank. You enter balances yourself or import statements and bank SMS, and everything is processed on your phone."
+        },
+        {
+          "q": "Why add the last 4 digits?",
+          "a": "Bank SMS and alert emails name accounts and cards by their last digits. Saving them lets Valam put each imported transaction on the right account or card."
+        }
+      ],
+      "related": [
+        "credit-cards",
+        "loans-and-payoff",
+        "import-bank-sms-and-statements"
+      ]
+    },
+    {
+      "slug": "track-spending",
+      "category": "track",
+      "icon": "chart",
+      "title": "Track your spending",
+      "seoTitle": "How to Track Daily Spending in Valam in a Few Taps | Valam",
+      "description": "Record spending, income and transfers in Valam in a few taps. Use categories, scan a bill, add home screen widgets and let Valam learn your categories.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "Logging a purchase takes a few taps. Valam sorts it into a category, updates your balance and budget, and learns from every correction you make.",
+      "steps": [
+        {
+          "title": "Tap the add button",
+          "body": "Enter the amount, choose what the money is (spending, income, a transfer, lending or borrowing), pick the account and check the category. Add a note if you like."
+        },
+        {
+          "title": "Scan a bill",
+          "body": "Tap Scan bill to read the amount and shop from a receipt photo. The photo is read on your phone and you confirm before anything is saved."
+        },
+        {
+          "title": "Fix a category once",
+          "body": "If Valam picks the wrong category, change it. Valam remembers, and similar transactions get the right category next time."
+        },
+        {
+          "title": "Add widgets for one tap entry",
+          "body": "On Android, long press your home screen and add a Valam widget. There are widgets to add an expense or income, scan a bill, split a bill, ask Mathi, use preset expenses and see your spending pace for the month.",
+          "tips": [
+            "Widgets open Valam with the entry filled in. You still unlock and confirm before it is saved."
+          ]
+        },
+        {
+          "title": "Review in Activity",
+          "body": "The Activity tab lists every transaction with search and filters, and shows how fast you are spending this month compared with your plan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I record a transfer between my own accounts?",
+          "a": "Yes. Choose transfer in the add sheet so the money moves between accounts without counting as spending."
+        },
+        {
+          "q": "Does the spending widget show amounts outside the app lock?",
+          "a": "Only if you allow it. Turn Show spending on widgets off in Settings and the widget shows nothing from your vault."
+        }
+      ],
+      "related": [
+        "home-screen-widgets",
+        "import-bank-sms-and-statements",
+        "spending-insights"
+      ]
+    },
+    {
+      "slug": "import-bank-sms-and-statements",
+      "category": "track",
+      "icon": "import",
+      "title": "Import bank statements, SMS and emails",
+      "seoTitle": "Import Bank Statements, SMS and Emails into Valam | Valam",
+      "description": "Bring your history into Valam from CSV, OFX or QFX statements, bank SMS on Android or pasted bank alert emails. All parsing happens on your phone.",
+      "minutes": 5,
+      "plan": "Free, SMS and email on Plus",
+      "intro": "Import saves you from typing months of history. Statement files are free. Reading bank SMS and pasted alert emails is part of Plus. Every method shows a preview before anything is saved.",
+      "needs": [
+        "A CSV, OFX or QFX statement from your bank, or",
+        "Bank SMS in your Android inbox, or a bank alert email to paste"
+      ],
+      "steps": [
+        {
+          "title": "Import a statement file",
+          "body": "Download a CSV, OFX or QFX statement from your bank's website or app. In Valam open Import, choose the file and pick your bank. Presets for ten banks map the columns for you."
+        },
+        {
+          "title": "Read bank SMS (Android, Plus)",
+          "body": "Open Import and choose bank SMS. Allow SMS access when asked. Valam reads only messages from bank sender IDs and never reads personal messages.",
+          "tips": [
+            "Card alerts go to the matching card, and a bank debit that pays a card bill is linked to the card as one transfer.",
+            "After your first scan is reviewed, new bank SMS are picked up each time you unlock Valam."
+          ]
+        },
+        {
+          "title": "Paste a bank alert email (Plus)",
+          "body": "Copy the text of a bank alert email and paste it into Import. Paste several at once by putting a line with only --- between them. Valam never reads your mailbox."
+        },
+        {
+          "title": "Check the preview and save",
+          "body": "The preview shows what will be added to each account, which rows are duplicates and anything that would move a balance. Tap Add to save."
+        },
+        {
+          "title": "Add missing accounts and scan again",
+          "body": "Alerts whose last digits match none of your accounts or cards are skipped. Add that account or card with its last 4 digits, and the next scan goes back to bring them in."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are my bank messages uploaded anywhere?",
+          "a": "No. SMS, statement files and pasted emails are read on your phone. Nothing is uploaded."
+        },
+        {
+          "q": "Will importing twice create duplicates?",
+          "a": "No. Valam checks for rows already saved and flags duplicates in the preview, so the same transaction is not added twice."
+        },
+        {
+          "q": "Can I import on iPhone?",
+          "a": "Statement files work on iPhone. iPhone does not let apps read SMS, so instead a Shortcuts automation can add Apple Wallet card payments."
+        }
+      ],
+      "related": [
+        "track-spending",
+        "add-accounts-cards-and-loans",
+        "valam-plus-and-free-month"
+      ]
+    },
+    {
+      "slug": "budgets-and-safe-to-spend",
+      "category": "track",
+      "icon": "target",
+      "title": "Set budgets and use safe to spend",
+      "seoTitle": "Set a Monthly Budget and See Safe to Spend Today | Valam",
+      "description": "Set monthly category budgets in Valam with a pace check, and use safe to spend to know how much you can spend today without touching bills or savings.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "A budget in Valam is a monthly limit for one category. Safe to spend turns your whole plan into one number for today, after bills, EMIs and savings are set aside.",
+      "steps": [
+        {
+          "title": "Fill in your income and payday",
+          "body": "Safe to spend needs them. Add them under About you on the setup checklist if you have not yet."
+        },
+        {
+          "title": "Create a budget",
+          "body": "Open Plan, then Budgets. Choose a category, enter a monthly limit and tap Save budget. Start with the category that leaks the most."
+        },
+        {
+          "title": "Watch the pace check",
+          "body": "Each budget shows whether you are spending faster than the month allows, so you can slow down before the limit is gone, not after."
+        },
+        {
+          "title": "Check safe to spend each day",
+          "body": "Home shows how much you can safely spend today. It already leaves room for upcoming bills, EMIs, card dues and your savings plan."
+        }
+      ],
+      "callout": {
+        "title": "Tip",
+        "text": "Fewer budgets are easier to keep. Two or three categories that matter beat a dozen you never check."
+      },
+      "faq": [
+        {
+          "q": "What happens if I go over a budget?",
+          "a": "Nothing is blocked. Valam shows the overspend, adjusts safe to spend for the rest of the month and Mathi can suggest where to cut back."
+        }
+      ],
+      "related": [
+        "track-spending",
+        "goals-and-savings",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "bills-calendar-and-recurring",
+      "category": "track",
+      "icon": "calendar",
+      "title": "Bills, due dates and recurring payments",
+      "seoTitle": "Track Bills, EMIs and Subscriptions in One Calendar | Valam",
+      "description": "See every bill, EMI, card due date and money owed in one calendar in Valam, get reminders before each due date and spot subscriptions whose price went up.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "Bills and dues puts every bill, EMI, card due and money owed in one calendar. Valam also finds the bills, subscriptions and EMIs that repeat in your transactions.",
+      "steps": [
+        {
+          "title": "Open Bills and dues",
+          "body": "Go to Plan and tap Bills and dues, or tap Calendar next to Next dues. The month view marks each day something is due."
+        },
+        {
+          "title": "Read the next 30 days",
+          "body": "The top shows money coming in and going out over the next 30 days, so you can see a tight week before it arrives."
+        },
+        {
+          "title": "Check what repeats",
+          "body": "Open Recurring from the calendar. It lists bills, subscriptions and EMIs Valam found in your transactions, and flags Price up when one starts costing more.",
+          "tips": [
+            "Try the subscription audit challenge: review each subscription this week and cancel one you do not use."
+          ]
+        },
+        {
+          "title": "Get reminders",
+          "body": "Valam reminds you before each due date. Turn off Show amounts in reminders in Settings if you do not want amounts on the lock screen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is a bill missing from the calendar?",
+          "a": "Cards and loans appear once they are added with their due dates. Repeating bills appear after Valam has seen them in your transactions a few times."
+        },
+        {
+          "q": "Do reminders work when Valam is locked?",
+          "a": "Yes. Reminders are scheduled on your phone and arrive without opening the app."
+        }
+      ],
+      "related": [
+        "credit-cards",
+        "loans-and-payoff",
+        "security-and-privacy-settings"
+      ]
+    },
+    {
+      "slug": "spending-insights",
+      "category": "track",
+      "icon": "chart",
+      "title": "See where your money goes",
+      "seoTitle": "Spending Insights: See Where Your Money Goes | Valam",
+      "description": "Use Valam's Insights and Spending screens to see spending by category, your largest purchases and how each big change moved your numbers over time.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "Insights turns your transactions into a few clear answers: where the money went, what stood out and how your choices changed your numbers.",
+      "steps": [
+        {
+          "title": "Open Insights",
+          "body": "Go to Plan and tap Insights, or tap an insight on Home. When nothing needs your attention, it says All clear."
+        },
+        {
+          "title": "Break spending down",
+          "body": "The Spending view shows each category for the month and your largest purchases. Tap a category, or Open in Activity, to see the transactions behind it."
+        },
+        {
+          "title": "Compare with earlier months",
+          "body": "Use History to see how a category has moved over recent months, so a slow rise does not go unnoticed."
+        },
+        {
+          "title": "Look back at big changes",
+          "body": "Impact history shows how each big change, such as cancelling a subscription or prepaying a loan, moved your numbers afterwards."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why are my insights empty?",
+          "a": "Insights need transactions. Import a statement, read bank SMS on Plus or add a few weeks of spending, and they fill in."
+        },
+        {
+          "q": "Can Mathi explain my spending?",
+          "a": "Yes. Ask Mathi where your money went this month and it answers from the same figures."
+        }
+      ],
+      "related": [
+        "track-spending",
+        "budgets-and-safe-to-spend",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "home-screen-widgets",
+      "category": "track",
+      "icon": "plus",
+      "title": "Use Valam home screen widgets",
+      "seoTitle": "Valam Android Widgets: Log Spending in One Tap | Valam",
+      "description": "Add Valam widgets to your Android home screen to log an expense, income or preset in one tap, scan a bill, split a bill, ask Mathi or see your spending pace.",
+      "minutes": 2,
+      "plan": "Free",
+      "intro": "Widgets cut logging to one tap from your home screen. Each one opens Valam with the entry ready, and you unlock and confirm before anything is saved.",
+      "steps": [
+        {
+          "title": "Add a widget",
+          "body": "Long press an empty spot on your Android home screen, tap Widgets, find Valam and drag one onto the screen."
+        },
+        {
+          "title": "Pick the ones you use",
+          "body": "There are widgets to add an expense, add income, scan a bill, split a bill, ask Mathi and open quick actions. Use several, or one quick actions widget for everything."
+        },
+        {
+          "title": "Set up preset expenses",
+          "body": "The presets widget logs things you buy often, such as tea or a bus fare, with the amount and category filled in."
+        },
+        {
+          "title": "Watch your spending pace",
+          "body": "The spending pace widget shows how this month's spending compares with your plan, at a glance."
+        }
+      ],
+      "callout": {
+        "title": "Privacy",
+        "text": "The spending pace widget reads this month's spending from outside the app lock. Turn off Show spending on widgets in Settings and it shows nothing."
+      },
+      "faq": [
+        {
+          "q": "Are widgets available on iPhone?",
+          "a": "The iPhone app is on its way. On iPhone today, a Shortcuts automation can add Apple Wallet payments instead."
+        }
+      ],
+      "related": [
+        "track-spending",
+        "security-and-privacy-settings",
+        "money-with-friends"
+      ]
+    },
+    {
+      "slug": "goals-and-savings",
+      "category": "plan",
+      "icon": "target",
+      "title": "Save for goals and use savings pots",
+      "seoTitle": "Set Savings Goals and Savings Pots in Valam | Valam",
+      "description": "Create savings goals with a target date and monthly plan, and use savings pots to set money aside for a trip, a phone or a rainy day in Valam.",
+      "minutes": 4,
+      "plan": "Free",
+      "intro": "Goals are targets with a plan behind them. Savings pots are money you set aside, wherever it actually sits. Use either, or both together.",
+      "steps": [
+        {
+          "title": "Create your first goal",
+          "body": "Open Plan, then Goals, and tap Set your first goal. Enter a target in today's money, a target date and a priority. Valam shows how much is needed each month."
+        },
+        {
+          "title": "Choose how progress is tracked",
+          "body": "Log contributions by hand, count money coming into a chosen account, or link savings pots. Pick one or mix them."
+        },
+        {
+          "title": "Start a savings pot",
+          "body": "Open Savings and tap Start a savings pot. Say what it is for, where the money is kept and an optional target. Then use Add money to move money into it.",
+          "tips": [
+            "Several pots on one account share that account's balance, so your total is never counted twice."
+          ]
+        },
+        {
+          "title": "Get back on track",
+          "body": "If a goal falls behind, its page shows what to change: a little more each month, a later date or a smaller target."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What goal should I start with?",
+          "a": "An emergency fund. Valam suggests a target based on your monthly costs, and it protects every other goal."
+        },
+        {
+          "q": "Can a goal include invested money?",
+          "a": "Yes. Add an expected return if the money is invested and Valam includes the growth in the plan."
+        }
+      ],
+      "related": [
+        "budgets-and-safe-to-spend",
+        "loans-and-payoff",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "loans-and-payoff",
+      "category": "plan",
+      "icon": "loan",
+      "title": "Track loans and plan your payoff",
+      "seoTitle": "Track EMIs and Plan a Faster Loan Payoff in Valam | Valam",
+      "description": "Track every loan and EMI in Valam, see your debt free date, compare avalanche and snowball payoff plans and see what a prepayment saves.",
+      "minutes": 5,
+      "plan": "Free",
+      "intro": "Valam shows what you owe, what each loan really costs and the fastest way out. Add your loans first, then use the payoff planner.",
+      "steps": [
+        {
+          "title": "Add each loan",
+          "body": "Enter the lender, amount, rate, months, EMI day and the paying account. Valam builds the repayment schedule and adds every EMI to your calendar."
+        },
+        {
+          "title": "Read the loans summary",
+          "body": "Open Loans to see your total EMIs a month, the share of income going to EMIs and your debt free date."
+        },
+        {
+          "title": "Plan your payoff",
+          "body": "Tap Plan my payoff. Avalanche pays the highest rate first and saves the most interest. Snowball clears the smallest loan first for quick wins. Valam shows both side by side."
+        },
+        {
+          "title": "Try a prepayment",
+          "body": "On a loan's page, open What if I prepay? to see how much interest and how many months an extra payment saves. When you make one, tap Record prepayment."
+        },
+        {
+          "title": "Keep the balance correct",
+          "body": "If your bank's figure differs, enter it from your latest loan statement. For floating rate loans, see what happens if the rate moves."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I prepay my loan or save?",
+          "a": "It depends on your rate, your emergency fund and your goals. Ask Mathi, which compares both using your own numbers."
+        }
+      ],
+      "related": [
+        "credit-cards",
+        "add-accounts-cards-and-loans",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "credit-cards",
+      "category": "plan",
+      "icon": "card",
+      "title": "Manage credit card dues",
+      "seoTitle": "Track Credit Card Due Dates, Statements and Interest | Valam",
+      "description": "Track each credit card's statement, due date, minimum due and interest free days in Valam, record payments and never miss a due date.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "Each card in Valam shows what is billed, what is unbilled, when it is due and how much interest you would pay. Reminders arrive before every due date.",
+      "steps": [
+        {
+          "title": "Add the card",
+          "body": "Enter the card name, last 4 digits, limit, statement date and days to pay. Add the monthly interest rate to see interest costs."
+        },
+        {
+          "title": "Enter a statement",
+          "body": "When a statement arrives, open the card and use Enter statement with the total and minimum due. Statements from imported card alerts are added for you."
+        },
+        {
+          "title": "Use the best day",
+          "body": "The card page shows the best day to spend for the longest interest free period, plus available credit and unbilled spending."
+        },
+        {
+          "title": "Record the payment",
+          "body": "Tap Record payment when you pay the bill. If the payment came in through bank SMS, Valam links the bank debit to the card as a transfer for you."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if I only pay the minimum?",
+          "a": "Interest is charged on the rest. The card page shows how much, and Mathi can explain how long the balance would take to clear."
+        }
+      ],
+      "related": [
+        "bills-calendar-and-recurring",
+        "loans-and-payoff",
+        "import-bank-sms-and-statements"
+      ]
+    },
+    {
+      "slug": "money-with-friends",
+      "category": "plan",
+      "icon": "people",
+      "title": "Lend, borrow and split with friends",
+      "seoTitle": "Track Money Lent to Friends and Split Bills in Valam | Valam",
+      "description": "Keep a clear record of money lent and borrowed, split bills, send reminders and, on Plus, run shared groups where each settlement is confirmed.",
+      "minutes": 4,
+      "plan": "Free, shared groups on Plus",
+      "intro": "Valam keeps a ledger of who owes whom, from a lunch to a family loan. Shared groups for trips and flats are part of Plus.",
+      "steps": [
+        {
+          "title": "Record a loan to or from someone",
+          "body": "Open People and add a name. Tap Lend more or Borrow, enter the amount and, if you like, a pay back date and interest rate."
+        },
+        {
+          "title": "Split a bill",
+          "body": "Use Split a bill, say what it was for, who paid and who shares it. Your share goes to the right category and the rest is owed to you."
+        },
+        {
+          "title": "Send a friendly reminder",
+          "body": "On a person's page, tap Send via WhatsApp / SMS to share a short summary. Valam never messages anyone on its own."
+        },
+        {
+          "title": "Record repayments",
+          "body": "When money comes back, tap Record repayment. Balances update and settled people move to All settled."
+        },
+        {
+          "title": "Create a shared group (Plus)",
+          "body": "For a trip, a flat or a dinner club, tap New group, name it and share an invite code. Members add expenses and settle up, and a settlement only counts once the person receiving it confirms."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does my friend need Valam?",
+          "a": "Not for your personal ledger. For a shared group, each member needs Valam and a Plus sign in."
+        },
+        {
+          "q": "Can Valam see group data?",
+          "a": "Group bills, settlements and names are sealed with the group's key. Valam's server only sees which accounts are in a group and when entries were added."
+        }
+      ],
+      "related": [
+        "valam-plus-and-free-month",
+        "track-spending",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "net-worth-and-investments",
+      "category": "plan",
+      "icon": "chart",
+      "title": "Track net worth, investments and deposits",
+      "seoTitle": "Track Net Worth, Investments, FDs and Deposits | Valam",
+      "description": "Track your net worth in Valam month by month. Add mutual funds, SIPs, fixed and recurring deposits, gold, security deposits and money in transit.",
+      "minutes": 4,
+      "plan": "Free",
+      "intro": "Net worth is everything you own minus everything you owe. Valam builds it from your accounts, cards and loans, plus the investments and deposits you add under Wealth.",
+      "steps": [
+        {
+          "title": "See your net worth",
+          "body": "Tap Net worth on Home or Wealth. It shows own minus owe, month by month, with your liquid cash and emergency fund."
+        },
+        {
+          "title": "Add an investment",
+          "body": "In Wealth open Investments & funds and add one, such as an index fund, an FD at your bank or gold. Add a monthly SIP or RD and its day if you invest every month, and a maturity date if it has one."
+        },
+        {
+          "title": "Keep values current",
+          "body": "Investments change in value. Open one and tap Update value whenever you check your statement."
+        },
+        {
+          "title": "Track deposits and claims",
+          "body": "Add money you are owed back, such as a rent deposit with a landlord, a claim with an insurer or an advance from an employer, with the date you expect it."
+        },
+        {
+          "title": "Settle when it is done",
+          "body": "When a deposit or claim is paid back, tap Mark as settled so it leaves your net worth correctly."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Valam fetch my investment values?",
+          "a": "No. Valam never connects to your bank or broker. You update values yourself, which keeps everything on your phone."
+        },
+        {
+          "q": "Does a chit fund count in my net worth?",
+          "a": "Yes. Add it as a chit fund under Investments & funds. See the chit fund guide."
+        }
+      ],
+      "related": [
+        "chit-funds",
+        "goals-and-savings",
+        "add-accounts-cards-and-loans"
+      ]
+    },
+    {
+      "slug": "chit-funds",
+      "category": "plan",
+      "icon": "people",
+      "title": "Track a chit fund",
+      "seoTitle": "How to Track a Chit Fund and Its Real Return | Valam",
+      "description": "Track a chit fund in Valam: monthly contributions, the month you win the auction, the prize received and the real return or cost of the chit.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "A chit fund is a group savings and loan scheme common across India. Valam tracks your contributions, the auction and the prize, and shows what the chit really earns or costs you.",
+      "needs": [
+        "The organiser's name and number of members",
+        "Your monthly contribution and contribution day",
+        "The month the chit started"
+      ],
+      "steps": [
+        {
+          "title": "Add the chit fund",
+          "body": "In Wealth open Investments & funds, add one and choose Chit fund. Enter the organiser, members, monthly amount, contribution day and start date, then tap Save chit fund."
+        },
+        {
+          "title": "Let contributions show up",
+          "body": "Each month's contribution is due on your contribution day, so it appears in Bills and dues with your other payments."
+        },
+        {
+          "title": "Record the prize when you win",
+          "body": "If you win the auction, enter the month number and the prize received. Valam then works out the real return or cost of the chit."
+        },
+        {
+          "title": "Close it at the end",
+          "body": "When the chit is over, tap Mark as settled."
+        }
+      ],
+      "callout": {
+        "title": "Why the real return matters",
+        "text": "Winning early gives you money sooner but usually at a discount, which works like a loan. Winning late works like a deposit. Valam shows which it was for you in rupees."
+      },
+      "faq": [
+        {
+          "q": "Can Mathi tell me whether to bid early?",
+          "a": "Mathi can explain how early and late prizes compare as a cost or a return, using your chit's numbers. It does not tell you what to bid."
+        }
+      ],
+      "related": [
+        "net-worth-and-investments",
+        "money-with-friends",
+        "bills-calendar-and-recurring"
+      ]
+    },
+    {
+      "slug": "income-tax-old-vs-new-regime",
+      "category": "plan",
+      "icon": "database",
+      "title": "Estimate income tax and choose a regime",
+      "seoTitle": "Old vs New Tax Regime Calculator and ITR Checklist | Valam",
+      "description": "Estimate your Indian income tax in Valam, compare the old and new regime, find ways to lower tax and get a filing checklist with your ITR form.",
+      "minutes": 5,
+      "plan": "Free",
+      "intro": "Valam's Income tax screen is for India. Enter your income and deductions once and Valam compares both regimes, suggests ways to lower tax and lists what you need to file.",
+      "needs": [
+        "Your salary and other income before deductions",
+        "Deductions such as 80C, health insurance and home loan interest",
+        "Any capital gains or business income"
+      ],
+      "steps": [
+        {
+          "title": "Open Income tax",
+          "body": "Go to Plan and tap Income tax, then Edit details."
+        },
+        {
+          "title": "Enter income",
+          "body": "Add salary, interest, rent, capital gains and any business income. Hints beside each field explain how it is taxed, for example presumptive income under 44AD or 44ADA."
+        },
+        {
+          "title": "Enter deductions",
+          "body": "Add 80C investments up to ₹1,50,000, health insurance for you and your parents, extra NPS, home loan interest and education loan interest. Each field shows its limit."
+        },
+        {
+          "title": "Compare old and new regime",
+          "body": "Tap Save and see tax. Valam works out tax under both regimes and shows which is lower for you."
+        },
+        {
+          "title": "Lower your tax",
+          "body": "Open Lower tax for deductions you have not used yet and what each could save."
+        },
+        {
+          "title": "Get ready to file",
+          "body": "Open Filing & ITR for a filing checklist and the ITR form that fits your income."
+        }
+      ],
+      "callout": {
+        "title": "An estimate, not advice",
+        "text": "Valam's figures help you plan. Check the final numbers with the income tax portal or a tax professional before you file."
+      },
+      "faq": [
+        {
+          "q": "Is my tax data uploaded?",
+          "a": "No. Your income and deductions stay encrypted on your phone like the rest of your data."
+        },
+        {
+          "q": "Which regime is better?",
+          "a": "It depends on your deductions. With few deductions the new regime is often lower. Valam compares both with your own numbers."
+        }
+      ],
+      "related": [
+        "net-worth-and-investments",
+        "goals-and-savings",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "discipline-rules-and-challenges",
+      "category": "grow",
+      "icon": "target",
+      "title": "Build habits with rules and challenges",
+      "seoTitle": "Money Rules, Challenges and a Cooling-off Wishlist | Valam",
+      "description": "Set money rules Valam checks for you, park impulse buys on a 24 hour wishlist and join challenges like a no-spend weekend or 52-week savings.",
+      "minutes": 4,
+      "plan": "Free",
+      "intro": "Discipline shows how consistently you act over the last 30 days. Rules, a cooling-off wishlist and short challenges turn good intentions into habits Valam can track.",
+      "steps": [
+        {
+          "title": "Open Discipline",
+          "body": "Go to Plan, or tap Discipline on Home. Your score shows what it is made of and your streaks, such as no-spend days."
+        },
+        {
+          "title": "Add a rule",
+          "body": "Tap Add rule and choose one: a monthly maximum for a category, saving a percent of income within 3 days of payday, or waiting 24 hours for anything over an amount. Valam checks it from your transactions."
+        },
+        {
+          "title": "Park an impulse buy",
+          "body": "Want something now? Add it to the cooling-off wishlist. Valam asks again in 24 hours, and most urges have passed by then."
+        },
+        {
+          "title": "Join a challenge",
+          "body": "Opt in to a no-spend weekend, a 30-day food delivery detox, a subscription audit or 52-week savings. Valam tracks your progress from your transactions."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Valam block spending if I break a rule?",
+          "a": "No. Valam never touches your bank. It shows how you are doing and nudges you, and the choice stays yours."
+        }
+      ],
+      "related": [
+        "budgets-and-safe-to-spend",
+        "roadmap-and-health",
+        "spending-insights"
+      ]
+    },
+    {
+      "slug": "roadmap-and-health",
+      "category": "grow",
+      "icon": "shield",
+      "title": "Follow your money roadmap",
+      "seoTitle": "Your Money Roadmap: Six Levels to Independence | Valam",
+      "description": "Valam's roadmap takes you through six levels, from Foundation to Independence. See your level, your next three steps and suggestions ranked by impact.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "The roadmap is your path from foundation to independence. Valam places you on one of six levels and tells you the few steps that will help most right now.",
+      "steps": [
+        {
+          "title": "See where you are",
+          "body": "Your level is shown on Home and at the top of Plan. Tap Roadmap on Home to see all six levels: Foundation, Stability, Debt control, Security, Growth and Independence."
+        },
+        {
+          "title": "Do your next 3 steps",
+          "body": "The roadmap lists your next three steps. Each is something concrete, such as building an emergency fund or clearing a high interest card."
+        },
+        {
+          "title": "Use the suggestions",
+          "body": "Suggestions for you are ranked by impact, so the top one is the change that would help your numbers most."
+        },
+        {
+          "title": "Ask Mathi to explain",
+          "body": "Ask Mathi to explain my health score or why a step matters. It answers with your own figures."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I move up a level?",
+          "a": "Complete the steps for your level. Valam checks your numbers and moves you up when each level's conditions are met."
+        }
+      ],
+      "related": [
+        "discipline-rules-and-challenges",
+        "goals-and-savings",
+        "ask-mathi"
+      ]
+    },
+    {
+      "slug": "ask-mathi",
+      "category": "mathi",
+      "icon": "spark",
+      "title": "Ask Mathi, your money coach",
+      "seoTitle": "How to Use Mathi, Valam's On-Device AI Money Coach | Valam",
+      "description": "Ask Mathi about your spending, bills, loans and goals. Learn the coach brain options, Think harder with cloud credits, voice mode and the Can I afford it check.",
+      "minutes": 4,
+      "plan": "Free, unlimited on Plus",
+      "intro": "Mathi answers money questions from your real numbers, runs on your phone and checks every figure before you see it. Free includes one question, and Plus makes it unlimited.",
+      "steps": [
+        {
+          "title": "Open the Mathi tab and ask",
+          "body": "Type a question or tap a suggestion, such as how much you can spend today or which bills are due this week. Write in English, Tamil or Tanglish, and choose Mathi's language in Settings."
+        },
+        {
+          "title": "Pick a coach brain",
+          "body": "Mathi always works with its built in coach. In Settings you can add an on-device language model for more natural answers. Choose for me picks Mathi Lite, or Mathi Full on Plus when your phone has the memory for it.",
+          "tips": [
+            "Models download on Wi-Fi unless you allow mobile data."
+          ]
+        },
+        {
+          "title": "Think harder for tough questions (Plus)",
+          "body": "Turn on Think harder to send a hard question to a cloud model. Plus includes 10 credits a day. Your question, the chat so far and Valam's figures are sent for that one answer, and transaction details, notes, people's names and files are left out."
+        },
+        {
+          "title": "Talk instead of typing",
+          "body": "Tap Talk to Mathi to speak your question. Speech is recognised on your phone. Live voice, an ongoing conversation, is in beta in Settings and works in English for now."
+        },
+        {
+          "title": "Check a big purchase",
+          "body": "Use Can I afford it? Enter what it is and the price, and for an EMI the months and rate. Tap Show me the impact to see the effect on safe to spend and your goals. Nothing is saved."
+        }
+      ],
+      "callout": {
+        "title": "What Mathi will not do",
+        "text": "Mathi cannot move money, pay bills, recommend specific investment products or save anything without your confirmation. It will never ask for passwords, PINs or your recovery key."
+      },
+      "faq": [
+        {
+          "q": "Does Mathi send my data to the cloud?",
+          "a": "By default, no. Mathi runs on your phone. Only Think harder, which is off until you turn it on, sends a question through Valam's server."
+        },
+        {
+          "q": "What happens after my free question?",
+          "a": "Your data and every other feature stay free. Plus makes Mathi unlimited, and the first month is free."
+        }
+      ],
+      "related": [
+        "use-valam-in-tamil",
+        "valam-plus-and-free-month",
+        "budgets-and-safe-to-spend"
+      ]
+    },
+    {
+      "slug": "use-valam-in-tamil",
+      "category": "mathi",
+      "icon": "spark",
+      "title": "Talk to Mathi in Tamil",
+      "seoTitle": "Use Mathi in Tamil, Tanglish or English | Valam",
+      "description": "Ask Mathi money questions in Tamil, Tanglish or English, set Mathi's language in Settings and speak in Tamil with your phone's offline speech recognition.",
+      "minutes": 2,
+      "plan": "Free, unlimited on Plus",
+      "intro": "Valam was built with Tamil speakers in mind. Its name comes from வளம், which means prosperity. Mathi understands Tamil, Tanglish and English.",
+      "steps": [
+        {
+          "title": "Choose Mathi's language",
+          "body": "In Settings, under Mathi's language, choose Automatic, English or தமிழ்."
+        },
+        {
+          "title": "Write the way you talk",
+          "body": "Type in Tamil script, Tanglish or English. Mathi understands money questions in any of them."
+        },
+        {
+          "title": "Add entries in Tamil",
+          "body": "Tell Mathi what you spent in Tamil and it turns it into a draft entry you confirm before anything is saved."
+        },
+        {
+          "title": "Speak in Tamil",
+          "body": "Tap Talk to Mathi and speak. Tamil speech needs your phone's offline Tamil speech recognition. Live voice works in English for now."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Tamil speech go to the cloud?",
+          "a": "No. Speech is recognised on your phone, using its offline speech recognition."
+        }
+      ],
+      "related": [
+        "ask-mathi",
+        "how-to-use-valam",
+        "valam-plus-and-free-month"
+      ]
+    },
+    {
+      "slug": "backup-and-new-phone",
+      "category": "safety",
+      "icon": "backup",
+      "title": "Back up and move to a new phone",
+      "seoTitle": "Back Up Valam and Restore Your Data on a New Phone | Valam",
+      "description": "Make an encrypted Valam backup, restore it on a new phone with your passphrase, or use encrypted sync and your recovery key on Plus.",
+      "minutes": 4,
+      "plan": "Free, sync on Plus",
+      "intro": "Valam keeps your money data only on your phone and leaves it out of Google and iCloud device backups. An encrypted backup file is how your data survives a lost phone.",
+      "steps": [
+        {
+          "title": "Create an encrypted backup",
+          "body": "Open Settings, then Backup, and tap Create encrypted backup. Choose a backup passphrase and tap Create & share to save the .fbak file to Files, Google Drive or anywhere you like.",
+          "tips": [
+            "Write the passphrase down. Without it the backup cannot be opened, and nobody, including us, can recover it."
+          ]
+        },
+        {
+          "title": "Restore on your new phone",
+          "body": "Install Valam on the new phone and set it up. Then open Settings, Restore from backup, pick the .fbak file and enter your passphrase. Restoring replaces all data on that phone."
+        },
+        {
+          "title": "Or use encrypted sync (Plus)",
+          "body": "Turn on sync in Plus. The first phone gets a recovery key of 26 letters and numbers, shown once. Keep it in a password manager or on paper.",
+          "tips": [
+            "Sync uses a private folder in your own Google Drive or iCloud, which Valam never holds."
+          ]
+        },
+        {
+          "title": "Join sync from a second phone",
+          "body": "On the new phone, sign in to the same account, turn on sync and enter the recovery key from your first phone."
+        }
+      ],
+      "faq": [
+        {
+          "q": "I lost my recovery key. What now?",
+          "a": "If you still have a phone with Valam, open Settings and create a new recovery key. The old one stops working and sync switches off until you turn it on again with the new key."
+        },
+        {
+          "q": "How often should I back up?",
+          "a": "After any big change, and at least once a month. The setup checklist reminds you when there is no recent backup."
+        }
+      ],
+      "related": [
+        "security-and-privacy-settings",
+        "valam-plus-and-free-month",
+        "setup-checklist"
+      ]
+    },
+    {
+      "slug": "security-and-privacy-settings",
+      "category": "safety",
+      "icon": "lock",
+      "title": "Security and privacy settings",
+      "seoTitle": "Security Settings: App Lock and Privacy Mode | Valam",
+      "description": "Set Valam's biometric lock, auto-lock, an extra passphrase, privacy mode and what reminders and widgets may show. A guide to every security setting.",
+      "minutes": 3,
+      "plan": "Free",
+      "intro": "Valam is locked by your phone's secure hardware from the first minute. These settings let you tighten it further or decide what shows outside the app.",
+      "steps": [
+        {
+          "title": "Biometric lock and auto-lock",
+          "body": "In Settings under Security, keep Biometric lock on so Valam opens only with your fingerprint, face or phone PIN. Choose how soon it locks itself with Auto-lock."
+        },
+        {
+          "title": "Add an extra passphrase",
+          "body": "For a double lock, tap Add an extra passphrase. Valam then needs your hardware unlock and the passphrase to open."
+        },
+        {
+          "title": "Hide amounts with privacy mode",
+          "body": "Turn on Privacy mode to hide amounts until you tap them, which helps when you open Valam in public."
+        },
+        {
+          "title": "Control the lock screen",
+          "body": "Turn off Show amounts in reminders so reminders never reveal amounts on the lock screen. Turn off Show spending on widgets so widgets share nothing from your vault."
+        },
+        {
+          "title": "Lock now",
+          "body": "Tap Lock now in Settings to lock Valam straight away before handing your phone to someone."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can Valam's team read my data?",
+          "a": "No. Your data is encrypted on your phone with keys sealed in its secure hardware. There are no ads, analytics or crash reporting in the app."
+        },
+        {
+          "q": "How do I delete everything?",
+          "a": "Settings has Delete everything, which erases this phone's data by destroying its keys first. If you have a Plus account, Delete account erases what Valam's server holds."
+        }
+      ],
+      "related": [
+        "backup-and-new-phone",
+        "getting-started",
+        "valam-plus-and-free-month"
+      ]
+    },
+    {
+      "slug": "valam-plus-and-free-month",
+      "category": "safety",
+      "icon": "spark",
+      "title": "Start Valam Plus and your free month",
+      "seoTitle": "Start Valam Plus and Your Free Month: What You Get | Valam",
+      "description": "Start your free month of Valam Plus on Android, then ₹90 a month or ₹790 a year. What Plus unlocks, credits, inviting friends and how to cancel.",
+      "minutes": 3,
+      "plan": "Plus",
+      "intro": "Everything in the core app stays free. Plus adds unlimited Mathi, encrypted sync, shared groups, bank SMS and email import, and Think harder credits. Every new account gets one free month.",
+      "steps": [
+        {
+          "title": "Open Valam Plus",
+          "body": "Go to Settings and tap Get Valam Plus. You may also see the offer on Home after a few days of use."
+        },
+        {
+          "title": "Start your free month",
+          "body": "Tap Start your free month and sign in with your email, phone number, or Google or Apple account. There is no card to enter and nothing to cancel.",
+          "tips": [
+            "Signing up asks you to confirm you are 18 or older and agree to the notice."
+          ]
+        },
+        {
+          "title": "Or subscribe",
+          "body": "Choose monthly at ₹90 or yearly at ₹790 and tap Subscribe. The purchase goes through Google Play, the app shows the price again before you buy, and Valam never sees your card details."
+        },
+        {
+          "title": "Use your credits",
+          "body": "Plus includes 10 Think harder credits a day, which reset at midnight India time. Need more? Buy a pack of 50, 150 or 500 credits for ₹50, ₹120 or ₹390 from Mathi. Bought credits do not expire, and you can use them while Plus is active."
+        },
+        {
+          "title": "Invite friends for free months",
+          "body": "Share your invite link from the Plus screen or Settings. Your friend gets the usual free month, and when they first pay for Plus you get a free month too, once per friend and up to 12 a year."
+        },
+        {
+          "title": "Restore or cancel",
+          "body": "On a new phone, tap Restore purchase. To cancel, use your Google Play subscriptions. Your data stays on your phone either way."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What happens when Plus ends?",
+          "a": "Your data stays on your phone. Sync pauses, bank SMS import stops picking up new messages and Mathi returns to the free allowance."
+        },
+        {
+          "q": "Can I get the free month twice?",
+          "a": "No. It is one free month per person. A one-way fingerprint of your email or phone number is kept so it cannot be claimed again."
+        }
+      ],
+      "related": [
+        "ask-mathi",
+        "backup-and-new-phone",
+        "money-with-friends"
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "supportEmail": "support@valam.io",
   "privacyEmail": "privacy@valam.io",
   "lastUpdated": "12 November 2026",
-  "lastUpdatedIso": "2026-11-12",
+  "lastUpdatedIso": "2026-11-17",
   "logo": "/images/logo.png",
   "ogImage": "/images/og-image.png",
   "themeColor": "#0A4A32",
@@ -41,6 +41,10 @@
     {
       "label": "Plus",
       "href": "/pricing"
+    },
+    {
+      "label": "Guides",
+      "href": "/guides"
     },
     {
       "label": "Blog",
@@ -90,6 +94,14 @@
       {
         "title": "Learn",
         "links": [
+          {
+            "label": "Getting started",
+            "href": "/guides/getting-started"
+          },
+          {
+            "label": "Guides",
+            "href": "/guides"
+          },
           {
             "label": "Privacy and security",
             "href": "/privacy"

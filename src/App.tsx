@@ -13,6 +13,8 @@ import BlogPost from "@/pages/BlogPost";
 import DataSafety from "@/pages/DataSafety";
 import DeleteAccount from "@/pages/DeleteAccount";
 import Home from "@/pages/Home";
+import GuidesIndex from "@/pages/GuidesIndex";
+import GuidePage from "@/pages/GuidePage";
 import NotFound from "@/pages/NotFound";
 import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
@@ -30,6 +32,8 @@ export default function App() {
         <Route path="faq" element={<FaqPage />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="guides" element={<GuidesIndex />} />
+        <Route path="guides/:slug" element={<GuidePage />} />
         <Route path="blog" element={<BlogIndex />} />
         <Route path="blog/:slug" element={<BlogPost />} />
         <Route path="privacy-policy" element={<Privacy />} />

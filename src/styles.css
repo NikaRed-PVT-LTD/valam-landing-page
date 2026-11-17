@@ -214,7 +214,7 @@ button { font-family: inherit; }
 
 /* blog */
 .post-card { display: flex; flex-direction: column; padding: 0; overflow: hidden; text-decoration: none; color: inherit; }
-.post-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: var(--mint-100); }
+.post-card img { width: 100%; height: auto; aspect-ratio: 1200/630; object-fit: cover; background: var(--mint-100); }
 .post-card__body { padding: 22px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .meta { font-size: 13px; color: var(--ink-soft); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .post-card h3 { font-size: 20px; margin: 0; }
@@ -326,3 +326,24 @@ button { font-family: inherit; }
 .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; counter-reset: f; }
 .flow .card { position: relative; padding-top: 44px; }
 .flow .card::before { counter-increment: f; content: counter(f); position: absolute; top: 14px; left: 20px; width: 26px; height: 26px; border-radius: 50%; background: var(--green-500); color: var(--green-950); font-weight: 800; font-size: 13px; display: grid; place-items: center; }
+
+/* Guides */
+.guide-card { display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.guide-card p { flex: 1; }
+.guide-card__meta { margin-top: 16px; }
+.guide-start { display: flex; gap: 24px; align-items: center; justify-content: space-between; flex-wrap: wrap; background: var(--mint-100); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+.guide-start h2 { font-size: 24px; margin: 0 0 6px; }
+.guide-start p { margin: 0; color: var(--ink-soft); }
+.guide-needs { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; margin-bottom: 8px; }
+.guide-needs h2 { margin-top: 0; font-size: 20px; }
+.guide-steps { list-style: none; counter-reset: step; padding: 0; margin: 0; display: grid; gap: 18px; }
+.guide-steps > li { counter-increment: step; position: relative; padding: 4px 0 4px 56px; }
+.guide-steps > li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 38px; height: 38px; border-radius: 50%; background: var(--green-500); color: var(--green-950); font-weight: 800; display: grid; place-items: center; }
+.guide-steps h3 { font-size: 19px; margin: 6px 0 6px; }
+.guide-steps p { margin: 0 0 8px; color: var(--ink-soft); }
+.guide-steps ul { margin: 6px 0 0; font-size: 15px; color: var(--ink-soft); }
+.guide-next { margin-top: 32px; font-weight: 600; }
+@media (max-width: 600px) { .guide-steps > li { padding-left: 48px; } .guide-start { padding: 20px; } }
+.guide-faq > div { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 22px; margin-bottom: 12px; }
+.guide-faq h3 { font-size: 18px; margin: 0 0 6px; }
+.guide-faq p { margin: 0; color: var(--ink-soft); }

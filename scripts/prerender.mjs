@@ -28,7 +28,7 @@ const nf = ssr.render("/does-not-exist");
 const inviteRedirect = `<script>(function(){var m=/^\\/i\\/([^\\/?#]+)\\/?$/.exec(location.pathname);if(m)location.replace("/i/?c="+m[1]);})();</script>`;
 fs.writeFileSync(path.join(dist, "404.html"), template.replace("<!--head-tags-->", inviteRedirect + nf.head).replace("<!--app-html-->", nf.html));
 
-const lastmod = (r) => r.published ?? site.lastUpdatedIso;
+const lastmod = (r) => r.modified ?? r.published ?? site.lastUpdatedIso;
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes
   .map((r) => `  <url><loc>${site.url}${r.path === "/" ? "/" : r.path}</loc><lastmod>${lastmod(r)}</lastmod><priority>${r.priority}</priority></url>`)
   .join("\n")}\n</urlset>\n`;

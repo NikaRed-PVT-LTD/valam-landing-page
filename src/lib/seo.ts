@@ -1,4 +1,4 @@
-import { absUrl, blog, dataSafety, deleteAccount, faq, home, pages, privacy, site, terms } from "./content";
+import { absUrl, blog, dataSafety, deleteAccount, faq, guides, home, pages, privacy, site, terms } from "./content";
 
 export type RouteMeta = {
   path: string;
@@ -8,6 +8,7 @@ export type RouteMeta = {
   type?: "website" | "article";
   noindex?: boolean;
   published?: string;
+  modified?: string;
   jsonLd: object[];
   priority: number;
 };
@@ -81,6 +82,59 @@ export function getRoutes(): RouteMeta[] {
   simple("/contact", pages.contact.seo, "Contact", [], 0.5);
 
   routes.push({
+    path: "/guides",
+    title: guides.hub.seo.title,
+    description: guides.hub.seo.description,
+    priority: 0.9,
+    modified: guides.updated,
+    jsonLd: [
+      breadcrumb([{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" }]),
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: guides.hub.title,
+        description: guides.hub.seo.description,
+        url: absUrl("/guides"),
+        inLanguage: "en-IN",
+        mainEntity: {
+          "@type": "ItemList",
+          itemListElement: guides.guides.map((g, i) => ({ "@type": "ListItem", position: i + 1, name: g.title, url: absUrl(`/guides/${g.slug}`) })),
+        },
+      },
+    ],
+  });
+
+  for (const g of guides.guides) {
+    const path = `/guides/${g.slug}`;
+    routes.push({
+      path,
+      title: g.seoTitle,
+      description: g.description,
+      priority: g.slug === "getting-started" ? 0.9 : 0.8,
+      modified: guides.updated,
+      jsonLd: [
+        breadcrumb([{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" }, { name: g.title, path }]),
+        {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: g.title,
+          description: g.description,
+          totalTime: `PT${g.minutes}M`,
+          inLanguage: "en-IN",
+          ...("needs" in g && g.needs ? { supply: g.needs.map((n) => ({ "@type": "HowToSupply", name: n })) } : {}),
+          tool: { "@type": "HowToTool", name: "Valam app for Android" },
+          step: g.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.title, text: s.body, url: `${absUrl(path)}#step-${i + 1}` })),
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: g.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+        },
+      ],
+    });
+  }
+
+  routes.push({
     path: "/blog",
     title: "Blog | Money guides from Valam",
     description: home.blogIntro.subtitle,
@@ -104,7 +158,7 @@ export function getRoutes(): RouteMeta[] {
           "@type": "Article",
           headline: p.title,
           description: p.description,
-          image: absUrl(p.image),
+          image: { "@type": "ImageObject", url: absUrl(p.image.replace(/\.webp$/, ".jpg")), width: 1200, height: 630 },
           datePublished: p.date,
           dateModified: p.date,
           author: { "@type": "Organization", name: blog.author.name },
@@ -137,7 +191,7 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").repl
 /** Head tags for a route, as an HTML string (used by the prerender step). */
 export function headHtml(m: RouteMeta): string {
   const url = absUrl(m.path === "/404" ? "/" : m.path);
-  const img = absUrl(m.image && m.type === "article" ? m.image.replace(".svg", ".png") : site.ogImage);
+  const img = absUrl(m.image && m.type === "article" ? m.image.replace(/\.(svg|webp)$/, ".jpg") : site.ogImage);
   const tags = [
     `<title>${esc(m.title)}</title>`,
     `<meta name="description" content="${esc(m.description)}" />`,
@@ -152,6 +206,8 @@ export function headHtml(m: RouteMeta): string {
     `<meta property="og:description" content="${esc(m.description)}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:image" content="${img}" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${esc(m.title)}" />`,
     `<meta name="twitter:description" content="${esc(m.description)}" />`,

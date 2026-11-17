@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4YKN5J882S.app.valam.finance", "4YKN5J882S.app.valam.finance.dev"],
+        "components": [{ "/": "/i/*", "comment": "Invite links open Valam" }]
+      }
+    ]
+  }
+}

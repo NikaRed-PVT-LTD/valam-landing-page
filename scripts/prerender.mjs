@@ -22,7 +22,11 @@ for (const r of routes) {
 
 // 404 page for static hosts
 const nf = ssr.render("/does-not-exist");
-fs.writeFileSync(path.join(dist, "404.html"), template.replace("<!--head-tags-->", nf.head).replace("<!--app-html-->", nf.html));
+// Invite links (valam.io/i/CODE) have no file of their own on a static host: send them on to the
+// invite page (public/i/index.html) before anything else loads. The app opens these links itself
+// once Android/iOS have verified /.well-known; this is for people without the app.
+const inviteRedirect = `<script>(function(){var m=/^\\/i\\/([^\\/?#]+)\\/?$/.exec(location.pathname);if(m)location.replace("/i/?c="+m[1]);})();</script>`;
+fs.writeFileSync(path.join(dist, "404.html"), template.replace("<!--head-tags-->", inviteRedirect + nf.head).replace("<!--app-html-->", nf.html));
 
 const lastmod = (r) => r.published ?? site.lastUpdatedIso;
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes

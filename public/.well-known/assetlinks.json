@@ -1,0 +1,29 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.valam.finance",
+      "sha256_cert_fingerprints": [
+        "D4:36:68:E5:7D:7F:FE:EA:03:0B:A3:7C:93:1B:E0:A9:0B:CE:5B:65:CD:E1:F6:73:CE:D0:98:B6:77:8B:F8:86",
+        "7A:AF:CD:0B:0E:15:B8:39:D8:D1:AF:8E:F1:41:18:60:23:37:1E:C9:0C:88:31:CE:6B:30:F3:29:4D:56:4A:BF",
+        "CB:6C:D8:E4:3B:97:EB:93:15:CE:C7:67:59:4F:02:A2:04:54:11:D5:5E:F7:4B:33:1C:EB:A2:30:26:DF:81:AD"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.valam.finance.dev",
+      "sha256_cert_fingerprints": [
+        "CB:6C:D8:E4:3B:97:EB:93:15:CE:C7:67:59:4F:02:A2:04:54:11:D5:5E:F7:4B:33:1C:EB:A2:30:26:DF:81:AD",
+        "7A:AF:CD:0B:0E:15:B8:39:D8:D1:AF:8E:F1:41:18:60:23:37:1E:C9:0C:88:31:CE:6B:30:F3:29:4D:56:4A:BF"
+      ]
+    }
+  }
+]

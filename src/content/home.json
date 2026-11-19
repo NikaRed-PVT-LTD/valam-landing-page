@@ -381,7 +381,7 @@
     "button": "Notify me",
     "success": "Thank you. We will email you when Valam is on the App Store.",
     "error": "Please enter a valid email address.",
-    "consent": "We only use your email to tell you about the iPhone launch. Email privacy@valam.io to be removed any time. See our Privacy Policy.",
+    "consent": "We only use your email to tell you about the iPhone launch. Email dpo@valam.io to be removed any time. See our Privacy Policy.",
     "storesLabel": "Get Valam on",
     "endpoint": ""
   },

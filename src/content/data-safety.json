@@ -70,7 +70,7 @@
     "items": [
       "Data on your phone stays until you delete it or remove the app.",
       "Delete your account in the app (Settings, then Delete account) and the data our servers hold for it is erased straight away.",
-      "If you cannot open the app, email privacy@valam.io. After verifying it is you, we delete your data within 30 days.",
+      "If you cannot open the app, email dpo@valam.io. After verifying it is you, we delete your data within 30 days.",
       "A one-way fingerprint (hash) of your email or phone number is kept after deletion, so the free month can't be claimed twice. Limited records are kept for a time where the law requires it. Purchase records are held by Apple and Google under their own policies, and by RevenueCat, our subscription provider, linked to your account id.",
       "Entries you added to a shared group stay with the other members, because their balances depend on them."
     ],
@@ -80,5 +80,5 @@
     "title": "Children",
     "body": "Valam is not directed to children under 18, and we do not knowingly collect personal data from them."
   },
-  "contact": "Questions about data safety, or a rights request or grievance? Email privacy@valam.io and we will reply within 30 days."
+  "contact": "Questions about data safety, or a rights request or grievance? Email dpo@valam.io and we will reply within 30 days."
 }

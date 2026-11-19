@@ -1,23 +1,24 @@
 {
   "seo": {
     "title": "Privacy Policy | Valam",
-    "description": "How Valam handles your data. Your money data stays encrypted on your phone. What an optional account sends, why, where it is held, and your rights under India's DPDP Act."
+    "description": "How Valam handles your data. Your money data stays encrypted on your phone. What an optional account sends, why, where it is held, and your rights under India's DPDP Act and Singapore's PDPA."
   },
   "title": "Privacy Policy",
-  "intro": "This notice explains what Valam keeps on your phone, what an optional account sends to Valam's server and its service providers, why, where it is held, and how to withdraw consent or use your rights under India's Digital Personal Data Protection Act, 2023. It says the same as the notice inside the app (Settings, then What Valam stores and how). It covers the Valam mobile app and this website.",
+  "intro": "This notice explains what Valam keeps on your phone, what an optional account sends to Valam's server and its service providers, why, where it is held, and how to withdraw consent or use your rights under India's Digital Personal Data Protection Act, 2023 and, if you live in Singapore, Singapore's Personal Data Protection Act 2012 (PDPA). It says the same as the notice inside the app (Settings, then What Valam stores and how). It covers the Valam mobile app and this website.",
   "summary": [
     "Without an account, your money data stays encrypted on your phone and none of your personal data reaches Valam.",
     "You only need an account for Plus. It holds your sign-in, plan and credits, and, only if you turn them on, sealed sync, shared groups, \"Let friends find me\" and Think harder.",
     "No ads, analytics or crash reporting in the app, and we never sell your data.",
     "Turn any optional feature off in Settings as easily as you turned it on, or delete your account there.",
-    "You can ask for a summary of your data, correction, erasure or a nominee, and raise a grievance. Write to privacy@valam.io."
+    "Your account data is stored by Google Cloud in India. If you live elsewhere, such as Singapore, it is transferred there under contracts that protect it.",
+    "You can ask for a summary of your data, correction, erasure or a nominee, and raise a grievance. Write to our Data Protection Officer at dpo@valam.io."
   ],
   "sections": [
     {
       "id": "who-we-are",
       "heading": "1. Who we are",
       "body": [
-        "Valam (வளம்) is a personal finance app with an AI coach called Mathi. In this notice, we, us and our mean the team that operates Valam, which is the Data Fiduciary for the personal data described in section 3. You can contact us at the address in section 14."
+        "Valam (வளம்) is a personal finance app with an AI coach called Mathi. In this notice, we, us and our mean the team that operates Valam, which is the Data Fiduciary (under India's DPDP Act) and the organisation responsible (under Singapore's PDPA) for the personal data described in section 4. Our Data Protection Officer answers privacy questions and requests at dpo@valam.io (section 14)."
       ]
     },
     {
@@ -71,7 +72,7 @@
       "heading": "5. This website",
       "body": [
         "This website has no analytics, advertising or tracking, and sets no cookies. It is hosted on GitHub Pages, which may log visitors' IP addresses to keep the service secure.",
-        "Launch list: if you give your email on this website, we use it only to tell you when Valam launches. Write to privacy@valam.io at any time to be removed.",
+        "Launch list: if you give your email on this website, we use it only to tell you when Valam launches. Write to dpo@valam.io at any time to be removed.",
         "Support messages: if you email us, we keep your message and address to reply."
       ]
     },
@@ -104,7 +105,8 @@
       "id": "service-providers",
       "heading": "8. Service providers and where data is held",
       "body": [
-        "Valam's server is Google Cloud in Mumbai (asia-south1). Firebase Authentication, Google Gemini and RevenueCat may process data outside India. Each works for Valam as a service provider and processes data only to provide its service."
+        "Valam's server is Google Cloud in Mumbai (asia-south1). Firebase Authentication, Google Gemini and RevenueCat may process data outside India. Each works for Valam as a service provider and processes data only to provide its service.",
+        "If you live outside India, such as in Singapore, your account data is transferred to India, and the providers above may process it in other countries. Each is bound by a contract with Valam (its data processing terms) to protect it to a standard at least comparable to Singapore's PDPA. You agree to this transfer when you create an account, after reading the short notice in the app."
       ],
       "list": [
         "Google (Firebase Authentication, Firestore, Cloud Functions and App Check): sign-in, sealed sync and group records, and the server functions",
@@ -119,7 +121,8 @@
       "heading": "9. Security",
       "body": [
         "Your data is encrypted on the phone with keys sealed in secure hardware, as described in section 2. What an account syncs or shares is sealed on your phone before it leaves, so Valam's server holds it without being able to read it. Backups are encrypted with a key derived from your passphrase.",
-        "Because we do not hold your keys, we cannot recover your data if you lose both your device access and your recovery key. No system is perfectly secure, but we design to limit harm if any part is exposed."
+        "Because we do not hold your keys, we cannot recover your data if you lose both your device access and your recovery key. No system is perfectly secure, but we design to limit harm if any part is exposed.",
+        "If a data breach is likely to harm you, we will tell you through your sign-in email or phone as soon as we can, and tell the regulator where the law requires: in Singapore the PDPC within 3 days of assessing it, and in India the Data Protection Board."
       ]
     },
     {
@@ -139,11 +142,11 @@
       ],
       "list": [
         "Withdraw consent: turn off Think harder, sync or \"Let friends find me\" in Settings, as easily as you turned them on, or delete your account. What was done before you withdrew stays lawful.",
-        "Know what we hold: ask for a summary of your personal data, what we do with it, and which service providers it is shared with.",
+        "Know what we hold: ask for a copy or summary of your personal data, how it has been used or shared in the past year, and which service providers it is shared with.",
         "Correct or update it: ask us to correct or update your sign-in email or phone, or anything else we hold that is wrong.",
         "Erase it: use Delete account in Settings, or ask us.",
         "Nominate someone: name a person who can use these rights for you if you die or can't act yourself. Write to us with their name and how to reach them.",
-        "Raise a grievance: tell us if something is wrong. We reply within 30 days. If you're not satisfied, you can complain to the Data Protection Board of India."
+        "Raise a grievance: tell us if something is wrong. We reply within 30 days, or tell you within 30 days when we will. If you're not satisfied, you can complain to the Data Protection Board of India or, in Singapore, the Personal Data Protection Commission (PDPC)."
       ]
     },
     {
@@ -162,9 +165,9 @@
     },
     {
       "id": "contact",
-      "heading": "14. Contact and how to make a request",
+      "heading": "14. Data Protection Officer and how to make a request",
       "body": [
-        "For privacy questions, rights requests and grievances, write to privacy@valam.io. Write from, or mention, the email address or phone number you sign in with (or say whether you use Apple or Google sign-in), so we can find your account. We reply to rights requests and grievances within 30 days."
+        "Our Data Protection Officer handles privacy questions, access and correction requests, other rights requests and grievances. Write to dpo@valam.io. Write from, or mention, the email address or phone number you sign in with (or say whether you use Apple or Google sign-in), so we can find your account. We reply within 30 days, or tell you within 30 days when we will."
       ]
     }
   ]
